@@ -1,0 +1,26 @@
+[
+  {
+    "outputFileName": "css/font.min.css",
+    "inputFiles": [
+      "css/font.css"
+    ]
+  },
+  {
+    "outputFileName": "js/bootstrap-formhelpers-phone.min.js",
+    "inputFiles": [
+      "js/bootstrap-formhelpers-phone.js"
+    ]
+  },
+  {
+    "outputFileName": "js/bootstrap-formhelpers-phone.format.min.js",
+    "inputFiles": [
+      "js/bootstrap-formhelpers-phone.format.js"
+    ]
+  },
+  {
+    "outputFileName": "css/style.min.css",
+    "inputFiles": [
+      "css/style.css"
+    ]
+  }
+]

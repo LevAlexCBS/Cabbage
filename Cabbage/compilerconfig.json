@@ -1,0 +1,10 @@
+﻿[
+  {
+    "outputFile": "js/bootstrap-formhelpers-phone.format.es5.js",
+    "inputFile": "js/bootstrap-formhelpers-phone.format.js"
+  },
+  {
+    "outputFile": "js/custom.es5.js",
+    "inputFile": "js/custom.js"
+  }
+]
