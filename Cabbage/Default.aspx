@@ -217,7 +217,7 @@
                                     <AlternatingRowStyle BackColor="White" />
                                     <EditRowStyle BackColor="#7C6F57" />
                                     <FooterStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" />
-                                    <HeaderStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" />
+                                    <HeaderStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White"/>
                                     <PagerStyle BackColor="#666666" ForeColor="White" HorizontalAlign="Center" />
                                     <RowStyle BackColor="#E3EAEB" />
                                     <SelectedRowStyle BackColor="#C5BBAF" Font-Bold="True" ForeColor="#333333" />
@@ -227,11 +227,11 @@
                                     <SortedDescendingHeaderStyle BackColor="#15524A" />
                                     <Columns>
                                         <asp:BoundField DataField="name" HeaderText="" HtmlEncode="False" />
-                                        <asp:BoundField DataField="dishout" HeaderText="Выход блюда, г" />
-                                        <asp:BoundField DataField="caloricity" HeaderText="Калорийность" />
-                                        <asp:BoundField DataField="proteins" HeaderText="Белки" />
-                                        <asp:BoundField DataField="fats" HeaderText="Жиры" />
-                                        <asp:BoundField DataField="carbohydrates" HeaderText="Углеводы" />
+                                        <asp:BoundField DataField="dishout" HeaderText="Выход блюда, г" ItemStyle-Width="100px" />
+                                        <asp:BoundField DataField="caloricity" HeaderText="Калорийность" ItemStyle-Width="115px" />
+                                        <asp:BoundField DataField="proteins" HeaderText="Белки" ItemStyle-Width="75px" />
+                                        <asp:BoundField DataField="fats" HeaderText="Жиры" ItemStyle-Width="75px" />
+                                        <asp:BoundField DataField="carbohydrates" HeaderText="Углеводы" ItemStyle-Width="80px"  HeaderStyle-HorizontalAlign="Center" />
                                     </Columns>
                                 </asp:GridView>
 

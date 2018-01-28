@@ -72,6 +72,10 @@ namespace Cabbage
             {
                 ds.ReadXml(Server.MapPath("~/App_Data/StrongBox_female.xml"));
             }
+            else if (choice == (int)BoxTypes.LunchBox)
+            {
+                ds.ReadXml(Server.MapPath("~/App_Data/LunchBox.xml"));
+            }
             GridView1.DataSource = ds;
             GridView1.DataBind();
         }

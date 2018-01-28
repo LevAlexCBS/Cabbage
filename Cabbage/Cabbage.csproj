@@ -116,6 +116,7 @@
     <Content Include="App_Data\BalanceBox_male.xml" />
     <Content Include="App_Data\FitBox_female.xml" />
     <Content Include="App_Data\FitBox_male.xml" />
+    <Content Include="App_Data\LunchBox.xml" />
     <Content Include="App_Data\SlimBox_female.xml" />
     <Content Include="App_Data\SlimBox_male.xml" />
     <Content Include="App_Data\StrongBox_female.xml" />
@@ -145,6 +146,12 @@
     <Content Include="images\course07.jpg" />
     <Content Include="images\course08.jpg" />
     <Content Include="images\mentor.jpg" />
+    <Content Include="js\bootstrap-formhelpers-phone.format.es5.js">
+      <DependentUpon>bootstrap-formhelpers-phone.format.js</DependentUpon>
+    </Content>
+    <Content Include="js\bootstrap-formhelpers-phone.format.es5.min.js">
+      <DependentUpon>bootstrap-formhelpers-phone.format.es5.js</DependentUpon>
+    </Content>
     <Content Include="js\bootstrap-formhelpers-phone.format.min.js">
       <DependentUpon>bootstrap-formhelpers-phone.format.js</DependentUpon>
     </Content>
@@ -162,8 +169,6 @@
     <Content Include="js\custom.js" />
     <Content Include="js\jquery.easing.min.js" />
     <Content Include="js\jquery.min.js" />
-    <Content Include="js\popper.js" />
-    <Content Include="js\tooltip.js" />
     <Content Include="Model.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>Model.edmx</DependentUpon>
