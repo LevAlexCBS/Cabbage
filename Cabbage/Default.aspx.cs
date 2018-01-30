@@ -9,6 +9,7 @@ using System.Web.UI.WebControls;
 using Cabbage.Models;
 using SMSProject.Services;
 
+
 namespace Cabbage
 {
     public partial class Default : System.Web.UI.Page
@@ -83,7 +84,7 @@ namespace Cabbage
         protected void PlaceOrder(object sender, EventArgs e)
         {
             DB_A2CE2A_OrdersEntities1 context = new DB_A2CE2A_OrdersEntities1();
-            context.Orders.Add(new Orders()
+            Orders newOrder = new Orders()
             {
                 Name = txbName.Text,
                 Phone = txbPhone.Text,
@@ -94,7 +95,8 @@ namespace Cabbage
                 NumDays = Convert.ToInt32(Numdays.SelectedValue),
                 Sex = Convert.ToBoolean(rblSex.SelectedIndex),
                 Date = DateTime.Now
-            });
+            };
+            context.Orders.Add(newOrder);
             try
             {
 
@@ -114,7 +116,8 @@ namespace Cabbage
                 }
             }
 
-            SendEmail();
+            new NotifySender(newOrder).SendEmail();
+            //SendEmail();
             //SendSms();
 
         }
@@ -135,55 +138,7 @@ namespace Cabbage
 
         private void SendEmail()
         {
-            string from = "cabbage7days@gmail.com"; //Replace this with your own correct Gmail Address
-
-            string to = "cabbage7days@gmail.com"; //Replace this with the Email Address to whom you want to send the mail
-
-
-            MailMessage mail = new MailMessage();
-            mail.To.Add(to);
-            mail.From = new MailAddress(from, "Ghost", Encoding.UTF8);
-            mail.Subject = "New order";
-            mail.SubjectEncoding = Encoding.UTF8;
-
-
-            mail.Body = "Name: " + txbName.Text + "<br>" +
-                "Phone: " + txbPhone.Text + "<br>" +
-                "Adress: " + txbAdr.Text + "<br>" +
-                "Box: " + BoxListOrders.SelectedValue + "<br>" +
-                "Days: " + Numdays.SelectedValue + "<br>" +
-                "Sex: " + (rblSex.SelectedIndex == 0 ? "Male" : "Female") + "<br>" +
-                "E-mail: " + txbEmail.Text + "<br>" +
-                "Comment: " + txbComment.Text;
-
-
-            mail.BodyEncoding = Encoding.UTF8;
-            mail.IsBodyHtml = true;
-            mail.Priority = MailPriority.High;
-
-            SmtpClient client = new SmtpClient();
-            //Add the Creddentials- use your own email id and password
-
-            client.Credentials = new System.Net.NetworkCredential(from, "7dayscabbage");
-
-            client.Port = 587; // Gmail works on this port
-            client.Host = "smtp.gmail.com";
-            client.EnableSsl = true; //Gmail works on Server Secured Layer
-            try
-            {
-                client.Send(mail);
-            }
-            catch (Exception ex)
-            {
-                Exception ex2 = ex;
-                string errorMessage = string.Empty;
-                while (ex2 != null)
-                {
-                    errorMessage += ex2.ToString();
-                    ex2 = ex2.InnerException;
-                }
-                HttpContext.Current.Response.Write(errorMessage);
-            }
+            
         }
     }
 }

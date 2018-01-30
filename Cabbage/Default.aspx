@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Cabbage.Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Cabbage.Default" Async ="true"%>
 
 <!DOCTYPE html>
 
@@ -227,7 +227,7 @@
                                     <SortedDescendingHeaderStyle BackColor="#15524A" />
                                     <Columns>
                                         <asp:BoundField DataField="name" HeaderText="" HtmlEncode="False" />
-                                        <asp:BoundField DataField="dishout" HeaderText="Выход блюда, г" ItemStyle-Width="100px" />
+                                        <asp:BoundField DataField="dishout" HeaderText="Выход блюда, г" ItemStyle-Width="100px" ItemStyle-CssClass="text-center"/>
                                         <asp:BoundField DataField="caloricity" HeaderText="Калорийность" ItemStyle-Width="115px" />
                                         <asp:BoundField DataField="proteins" HeaderText="Белки" ItemStyle-Width="75px" />
                                         <asp:BoundField DataField="fats" HeaderText="Жиры" ItemStyle-Width="75px" />
@@ -760,7 +760,7 @@
                     <ul class="social-links">
                         <li><a href="https://www.instagram.com/kapusta7day/"><i class="fa fa-instagram fa-fw"></i></a></li>
                         <li><a href="https://facebook.com/kapusta7day/"><i class="fa fa-facebook fa-fw"></i></a></li>
-                        <li><a href="#link"><i class="fa fa-telegram fa-fw"></i></a></li>
+                        <li><a href="https://twitter.com/kapusta7day"><i class="fa fa-twitter fa-fw"></i></a></li>
                     </ul>
                     2016 Mentor Theme. All rights reserved
       <div class="credits">

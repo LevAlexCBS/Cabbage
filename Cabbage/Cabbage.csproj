@@ -53,6 +53,10 @@
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="HtmlAgilityPack, Version=1.6.15.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <HintPath>..\packages\HtmlAgilityPack.1.6.15\lib\Net45\HtmlAgilityPack.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.AI.Agent.Intercept, Version=2.0.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.2.0.6\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
       <Private>True</Private>
@@ -116,8 +120,13 @@
     <Content Include="App_Data\BalanceBox_male.xml" />
     <Content Include="App_Data\FitBox_female.xml" />
     <Content Include="App_Data\FitBox_male.xml" />
-    <Content Include="App_Data\LunchBox.xml" />
-    <Content Include="App_Data\SlimBox_female.xml" />
+    <Content Include="App_Data\LunchBox.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Data\mail.html" />
+    <Content Include="App_Data\SlimBox_female.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="App_Data\SlimBox_male.xml" />
     <Content Include="App_Data\StrongBox_female.xml" />
     <Content Include="App_Data\StrongBox_male.xml" />
@@ -130,7 +139,9 @@
     </Content>
     <Content Include="css\imagehover.min.css" />
     <Content Include="css\style.css" />
-    <Content Include="css\style.min.css" />
+    <Content Include="css\style.min.css">
+      <DependentUpon>style.css</DependentUpon>
+    </Content>
     <Content Include="favicon.ico" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="images\dostavka.jpg" />
@@ -145,6 +156,13 @@
     <Content Include="images\course06.jpg" />
     <Content Include="images\course07.jpg" />
     <Content Include="images\course08.jpg" />
+    <Content Include="images\mail\divider.png" />
+    <Content Include="images\mail\facebook%402x.png" />
+    <Content Include="images\mail\instagram%402x.png" />
+    <Content Include="images\mail\photo.jpg" />
+    <Content Include="images\mail\rounder-dwn.png" />
+    <Content Include="images\mail\rounder-up.png" />
+    <Content Include="images\mail\twitter%402x.png" />
     <Content Include="images\mentor.jpg" />
     <Content Include="js\bootstrap-formhelpers-phone.format.es5.js">
       <DependentUpon>bootstrap-formhelpers-phone.format.js</DependentUpon>
@@ -239,6 +257,7 @@
       <DependentUpon>Model.edmx</DependentUpon>
     </Compile>
     <Compile Include="Models\Boxes.cs" />
+    <Compile Include="Models\NotifySender.cs" />
     <Compile Include="Models\Gender.cs" />
     <Compile Include="Orders.cs">
       <DependentUpon>Model.tt</DependentUpon>
