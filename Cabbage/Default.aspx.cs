@@ -2,12 +2,9 @@
 using System.Data;
 using System.Data.Entity.Validation;
 using System.Linq;
-using System.Net.Mail;
-using System.Text;
-using System.Web;
 using System.Web.UI.WebControls;
 using Cabbage.Models;
-using SMSProject.Services;
+
 
 
 namespace Cabbage
@@ -32,6 +29,7 @@ namespace Cabbage
                 Numdays.Items.AddRange(Enumerable.Range(1, 100).Select(e => new ListItem(e.ToString())).ToArray());
 
             }
+
         }
 
         protected void BoxList_SelectedIndexChanged(object sender, EventArgs e)
@@ -81,64 +79,53 @@ namespace Cabbage
             GridView1.DataBind();
         }
 
-        protected void PlaceOrder(object sender, EventArgs e)
+        protected async void PlaceOrder(object sender, EventArgs e)
         {
-            DB_A2CE2A_OrdersEntities1 context = new DB_A2CE2A_OrdersEntities1();
-            Orders newOrder = new Orders()
+            if (Page.IsValid)
             {
-                Name = txbName.Text,
-                Phone = txbPhone.Text,
-                Address_ = txbAdr.Text,
-                BoxType = (short)BoxListOrders.SelectedIndex,
-                Comment = txbComment.Text,
-                Email = txbEmail.Text,
-                NumDays = Convert.ToInt32(Numdays.SelectedValue),
-                Sex = Convert.ToBoolean(rblSex.SelectedIndex),
-                Date = DateTime.Now
-            };
-            context.Orders.Add(newOrder);
-            try
-            {
-
-                context.SaveChanges();
-
-            }
-            catch (DbEntityValidationException ex)
-            {
-                foreach (DbEntityValidationResult validationError in ex.EntityValidationErrors)
+                DB_A2CE2A_OrdersEntities1 context = new DB_A2CE2A_OrdersEntities1();
+                Orders newOrder = new Orders()
                 {
-                    Response.Write("Object: " + validationError.Entry.Entity.ToString());
-                    Response.Write(" ");
-                    foreach (DbValidationError err in validationError.ValidationErrors)
+                    Name = txbName.Text,
+                    Phone = txbPhone.Text,
+                    Address_ = txbAdr.Text,
+                    BoxType = (short)BoxListOrders.SelectedIndex,
+                    Comment = txbComment.Text,
+                    Email = txbEmail.Text,
+                    NumDays = Convert.ToInt32(Numdays.SelectedValue),
+                    Sex = Convert.ToBoolean(rblSex.SelectedIndex),
+                    Date = DateTime.Now
+                };
+                context.Orders.Add(newOrder);
+                try
+                {
+
+                    context.SaveChanges();
+
+                }
+                catch (DbEntityValidationException ex)
+                {
+                    foreach (DbEntityValidationResult validationError in ex.EntityValidationErrors)
                     {
-                        Response.Write(err.ErrorMessage + " ");
+                        Response.Write("Object: " + validationError.Entry.Entity.ToString());
+                        Response.Write(" ");
+                        foreach (DbValidationError err in validationError.ValidationErrors)
+                        {
+                            Response.Write(err.ErrorMessage + " ");
+                        }
                     }
                 }
+
+                Response.Write("<script>alert('Спасибо за заказ');</script>");
+
+
+                await new NotifySender(newOrder).SendEmail();
+                
             }
 
-            new NotifySender(newOrder).SendEmail();
-            //SendEmail();
-            //SendSms();
-
         }
 
-        private void SendSms()
-        {
-            string clientphone = txbPhone.Text.Replace(" (", string.Empty).Replace(") ", string.Empty).Replace("-", string.Empty);
-            string clientbody = "Спасибо за заказ! Доставка завтра с ? до ?";
-            
 
-            //string smsbody = "Новий заказ\n" + "Имя: " + txbName.Text + "\nТел.: " + txbPhone.Text
-            //    + "\nBox: " + BoxListOrders.SelectedValue + "\nДни: " + Numdays.SelectedValue
-            //    + "\nАдрес: " + txbAdr.Text;
-            SMSWorker smsw = new SMSWorker();
-            smsw.Auth("cabbage", "7dayscabbage");
-            //Response.Write(smsw.SendSMS("Kapusta", "+380636472421", smsbody, null)[0]);
-        }
 
-        private void SendEmail()
-        {
-            
-        }
     }
 }

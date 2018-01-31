@@ -5,11 +5,10 @@ using System.Net.Mail;
 using System.Text;
 using System.Web;
 using System.IO;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 using Cabbage.Models;
 using System.Threading.Tasks;
 using HtmlAgilityPack;
+using SMSProject.Services;
 
 namespace Cabbage.Models
 {
@@ -53,7 +52,7 @@ namespace Cabbage.Models
         }
 
 
-        public async void SendEmail()
+        public async Task SendEmail()
         {
             string from = "cabbage7days@gmail.com"; //Replace this with your own correct Gmail Address
 
@@ -97,6 +96,19 @@ namespace Cabbage.Models
                 }
                 HttpContext.Current.Response.Write(errorMessage);
             }
+        }
+        public async Task SendSms()
+        {
+            string clientphone = clientOrder.Phone.Replace(" (", string.Empty).Replace(") ", string.Empty).Replace("-", string.Empty);
+            string clientbody = "Спасибо за заказ! Доставка завтра с ? до ?";
+
+
+            //string smsbody = "Новий заказ\n" + "Имя: " + txbName.Text + "\nТел.: " + txbPhone.Text
+            //    + "\nBox: " + BoxListOrders.SelectedValue + "\nДни: " + Numdays.SelectedValue
+            //    + "\nАдрес: " + txbAdr.Text;
+            SMSWorker smsw = new SMSWorker();
+            smsw.Auth("cabbage", "7dayscabbage");
+            //Response.Write(smsw.SendSMS("Kapusta", "+380636472421", smsbody, null)[0]);
         }
     }
 }

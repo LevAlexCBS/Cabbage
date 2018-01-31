@@ -745,7 +745,7 @@
                             <div class="col-xs-12">
                                 <!-- Button -->
                                 <%--<button type="submit" id="submit" name="submit" class="form contact-form-button light-form-button oswald light">SEND EMAIL</button> --%>
-                                <asp:Button Text="Заказать " runat="server" OnClick="PlaceOrder" CssClass="form contact-form-button light-form-button oswald light"></asp:Button>
+                                <asp:Button Text="Заказать " runat="server" OnClick="PlaceOrder" CssClass="form contact-form-button light-form-button oswald light" CausesValidation ="true"></asp:Button>
                             </div>
                             <!-- </form> -->
                         </div>
