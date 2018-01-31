@@ -145,14 +145,14 @@
                         <div class="col-md-6">
                             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                                 <div class="orga-stru">
-                                    <h3>10%</h3>
+                                    <h3>%</h3>
                                     <p>Действует скидка на заказ от 21 дня</p>
                                     <i class="fa fa-male"></i>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                                 <div class="orga-stru">
-                                    <h3>5%</h3>
+                                    <h3>%</h3>
                                     <p>Действует скидка на заказ от 5 дней</p>
                                     <i class="fa fa-male"></i>
                                 </div>
