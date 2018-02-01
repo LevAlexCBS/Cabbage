@@ -212,12 +212,12 @@
                                 <asp:GridView ID="GridView1" runat="server"
                                     CellPadding="4"
                                     ForeColor="#333333"
-                                    AutoGenerateColumns="false"
+                                    AutoGenerateColumns="False"
                                     GridLines="None" CssClass="gvtable">
                                     <AlternatingRowStyle BackColor="White" />
                                     <EditRowStyle BackColor="#7C6F57" />
                                     <FooterStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" />
-                                    <HeaderStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White"/>
+                                    <HeaderStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" CssClass="text-center" />
                                     <PagerStyle BackColor="#666666" ForeColor="White" HorizontalAlign="Center" />
                                     <RowStyle BackColor="#E3EAEB" />
                                     <SelectedRowStyle BackColor="#C5BBAF" Font-Bold="True" ForeColor="#333333" />
@@ -225,13 +225,28 @@
                                     <SortedAscendingHeaderStyle BackColor="#246B61" />
                                     <SortedDescendingCellStyle BackColor="#D4DFE1" />
                                     <SortedDescendingHeaderStyle BackColor="#15524A" />
-                                    <Columns>
+                                    <Columns >
                                         <asp:BoundField DataField="name" HeaderText="" HtmlEncode="False" />
-                                        <asp:BoundField DataField="dishout" HeaderText="Выход блюда, г" ItemStyle-Width="100px" ItemStyle-CssClass="text-center"/>
-                                        <asp:BoundField DataField="caloricity" HeaderText="Калорийность" ItemStyle-Width="115px" />
-                                        <asp:BoundField DataField="proteins" HeaderText="Белки" ItemStyle-Width="75px" />
-                                        <asp:BoundField DataField="fats" HeaderText="Жиры" ItemStyle-Width="75px" />
-                                        <asp:BoundField DataField="carbohydrates" HeaderText="Углеводы" ItemStyle-Width="80px"  HeaderStyle-HorizontalAlign="Center" />
+                                        <asp:BoundField DataField="dishout" HeaderText="Выход блюда, г" ItemStyle-Width="100px">
+                                        <HeaderStyle CssClass="text-center" />
+                                        <ItemStyle CssClass="text-center" Width="100px" />
+                                        </asp:BoundField>
+                                        <asp:BoundField DataField="caloricity" HeaderText="Калорийность" ItemStyle-Width="115px" >
+                                        <HeaderStyle CssClass="text-center" />
+                                        <ItemStyle CssClass="text-center" Width="115px" />
+                                        </asp:BoundField>
+                                        <asp:BoundField DataField="proteins" HeaderText="Белки" ItemStyle-Width="75px" >
+                                        <HeaderStyle CssClass="text-center" />
+                                        <ItemStyle CssClass="text-center" Width="75px" />
+                                        </asp:BoundField>
+                                        <asp:BoundField DataField="fats" HeaderText="Жиры" ItemStyle-Width="75px" ItemStyle-CssClass="text-center" ItemStyle-HorizontalAlign="Center">
+                                        <HeaderStyle CssClass="text-center" />
+                                        <ItemStyle CssClass="text-center" HorizontalAlign="Center" Width="75px" />
+                                        </asp:BoundField>
+                                        <asp:BoundField DataField="carbohydrates" HeaderText="Углеводы" ItemStyle-Width="80px"  HeaderStyle-HorizontalAlign="Center" >
+                                        <HeaderStyle CssClass="text-center" HorizontalAlign="Center" />
+                                        <ItemStyle CssClass="text-center" Width="80px" />
+                                        </asp:BoundField>
                                     </Columns>
                                 </asp:GridView>
 
