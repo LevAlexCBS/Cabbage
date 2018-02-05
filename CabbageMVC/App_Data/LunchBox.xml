@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<lunchbox>
+
+  <meal>
+    <name>Суп дня</name>
+    <dishout>200 г</dishout>
+  </meal>
+
+  <meal>
+    <name>Блюдо с мяса/рыбы</name>
+    <dishout>130 г</dishout>
+  </meal>
+
+  <meal>
+    <name>Гарнир</name>
+    <dishout>150 г</dishout>
+  </meal>
+
+
+  <meal>
+    <name>Овощной салат</name>
+    <dishout>180 г</dishout>
+  </meal>
+
+  <meal>
+    <name>Напиток</name>
+    <dishout>200 мл</dishout>
+  </meal>
+
+ 
+
+  <meal>
+    <name><![CDATA[<b>Всего</b>]]></name>
+    <dishout>660 г/200 мл</dishout>
+  </meal>
+
+
+</lunchbox>

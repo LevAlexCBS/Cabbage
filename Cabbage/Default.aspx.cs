@@ -83,8 +83,8 @@ namespace Cabbage
         {
             if (Page.IsValid)
             {
-                DB_A2CE2A_OrdersEntities1 context = new DB_A2CE2A_OrdersEntities1();
-                Orders newOrder = new Orders()
+                DB_A2CE2A_OrdersEntities context = new DB_A2CE2A_OrdersEntities();
+                Order newOrder = new Order()
                 {
                     Name = txbName.Text,
                     Phone = txbPhone.Text,

@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<balancebox>
+
+  <meal>
+    <name><![CDATA[<b>Завтрак 1</b>]]></name>
+    <dishout></dishout>
+    <caloricity></caloricity>
+    <proteins></proteins>
+    <fats></fats>
+    <carbohydrates></carbohydrates>
+  </meal>
+
+  <meal>
+    <name>Сырники с фруктовым пюре и финиками</name>
+    <dishout>190 г</dishout>
+    <caloricity>325,9 кКл</caloricity>
+    <proteins>14,4</proteins>
+    <fats>5,1</fats>
+    <carbohydrates>45,6</carbohydrates>
+  </meal>
+
+  <meal>
+    <name>Желе апельсиновое</name>
+    <dishout>150 г</dishout>
+    <caloricity>132,0 кКл</caloricity>
+    <proteins>4,2</proteins>
+    <fats>-</fats>
+    <carbohydrates>30,5</carbohydrates>
+  </meal>
+
+  <meal>
+    <name><![CDATA[<b>Завтрак 2</b>]]></name>
+    <dishout></dishout>
+    <caloricity></caloricity>
+    <proteins></proteins>
+    <fats></fats>
+    <carbohydrates></carbohydrates>
+  </meal>
+
+  <meal>
+    <name>Зеленый смузи</name>
+    <dishout>170 г</dishout>
+    <caloricity>58,2 кКл</caloricity>
+    <proteins>1,0</proteins>
+    <fats>0,6</fats>
+    <carbohydrates>12,0</carbohydrates>
+  </meal>
+
+  <meal>
+    <name>Хлебец с гречневой муки с печеночным паштетом ( кролик ) и грецким орехом</name>
+    <dishout>50 г</dishout>
+    <caloricity>147,8 кКл</caloricity>
+    <proteins>4,1</proteins>
+    <fats>6,8</fats>
+    <carbohydrates>9,2</carbohydrates>
+  </meal>
+
+  <meal>
+    <name><![CDATA[<b>Обед</b>]]></name>
+    <dishout></dishout>
+    <caloricity></caloricity>
+    <proteins></proteins>
+    <fats></fats>
+    <carbohydrates></carbohydrates>
+  </meal>
+
+
+  <meal>
+    <name>Суп с брокколи и сыром</name>
+    <dishout>200 г</dishout>
+    <caloricity>225,0 кКл</caloricity>
+    <proteins>10,6</proteins>
+    <fats>9,4</fats>
+    <carbohydrates>12,8</carbohydrates>
+  </meal>
+
+  <meal>
+    <name>Печеный картофель с розмарином</name>
+    <dishout>100 г</dishout>
+    <caloricity>105 кКл</caloricity>
+    <proteins>2,0</proteins>
+    <fats>0,4</fats>
+    <carbohydrates>16,1</carbohydrates>
+  </meal>
+  
+  <meal>
+    <name>Кролик запеченный  в травах с гранатовым соусом</name>
+    <dishout>150 г</dishout>
+    <caloricity>239,3 кКл</caloricity>
+    <proteins>21,4</proteins>
+    <fats>14,3</fats>
+    <carbohydrates>9,6</carbohydrates>
+  </meal>
+
+  <meal>
+    <name>Марокканский салат</name>
+    <dishout>180 г</dishout>
+    <caloricity>146,0 кКл</caloricity>
+    <proteins>3,6</proteins>
+    <fats>8,6</fats>
+    <carbohydrates>14,6</carbohydrates>
+  </meal>
+
+  <meal>
+    <name><![CDATA[<b>Ужин 1</b>]]></name>
+    <dishout></dishout>
+    <caloricity></caloricity>
+    <proteins></proteins>
+    <fats></fats>
+    <carbohydrates></carbohydrates>
+  </meal>
+
+  <meal>
+    <name>Йогурт домашний</name>
+    <dishout>125 мл</dishout>
+    <caloricity>105,0 кКл</caloricity>
+    <proteins>2,4</proteins>
+    <fats>2,6</fats>
+    <carbohydrates>0,1</carbohydrates>
+  </meal>
+
+  <meal>
+    <name>Галета овсяная</name>
+    <dishout>45 г</dishout>
+    <caloricity>78,0 кКл</caloricity>
+    <proteins>2,5</proteins>
+    <fats>1,7</fats>
+    <carbohydrates>14,8</carbohydrates>
+  </meal>
+
+  <meal>
+    <name><![CDATA[<b>Ужин 2</b>]]></name>
+    <dishout></dishout>
+    <caloricity></caloricity>
+    <proteins></proteins>
+    <fats></fats>
+    <carbohydrates></carbohydrates>
+  </meal>
+
+  <meal>
+    <name>Морской окунь на пару с кисло-сладким соусом</name>
+    <dishout>150 г</dishout>
+    <caloricity>258,0 кКл</caloricity>
+    <proteins>39,9</proteins>
+    <fats>5,1</fats>
+    <carbohydrates>4,6</carbohydrates>
+  </meal>
+
+  <meal>
+    <name>Рис бурый отварной</name>
+    <dishout>150 г</dishout>
+    <caloricity>106,7 кКл</caloricity>
+    <proteins>2,6</proteins>
+    <fats>0,4</fats>
+    <carbohydrates>23,4</carbohydrates>
+  </meal>
+
+  <meal>
+    <name>Рататуй</name>
+    <dishout>180 г</dishout>
+    <caloricity>76,6 кКл</caloricity>
+    <proteins>1,8</proteins>
+    <fats>2,4</fats>
+    <carbohydrates>10,6</carbohydrates>
+  </meal>
+
+  <meal>
+    <name><![CDATA[<b>Всего</b>]]></name>
+    <dishout>1840 г</dishout>
+    <caloricity>2003,5 кКл</caloricity>
+    <proteins>110,5</proteins>
+    <fats>57,4</fats>
+    <carbohydrates>203,9</carbohydrates>
+  </meal>
+
+
+</balancebox>

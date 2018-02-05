@@ -278,7 +278,7 @@
                             <div class="pm-staff-profile-container">
                                 <div class="pm-staff-profile-image-wrapper text-center">
                                     <div class="pm-staff-profile-image">
-                                        <img src="images/mentor.jpg" alt="" class="img-thumbnail img-circle" />
+                                        <img src="images/slimbox.jpg" alt="" class="img-thumbnail img-circle" />
                                     </div>
                                 </div>
                                 <div class="pm-staff-profile-details text-center">
@@ -328,7 +328,7 @@
                             <div class="pm-staff-profile-container">
                                 <div class="pm-staff-profile-image-wrapper text-center">
                                     <div class="pm-staff-profile-image">
-                                        <img src="images/mentor.jpg" alt="" class="img-thumbnail img-circle" />
+                                        <img src="images/fitbox.jpg" alt="" class="img-thumbnail img-circle" />
                                     </div>
                                 </div>
                                 <div class="pm-staff-profile-details text-center">
@@ -377,7 +377,7 @@
                             <div class="pm-staff-profile-container">
                                 <div class="pm-staff-profile-image-wrapper text-center">
                                     <div class="pm-staff-profile-image">
-                                        <img src="images/mentor.jpg" alt="" class="img-thumbnail img-circle" />
+                                        <img src="images/balancebox.jpg" alt="" class="img-thumbnail img-circle" />
                                     </div>
                                 </div>
                                 <div class="pm-staff-profile-details text-center">
@@ -429,7 +429,7 @@
                             <div class="pm-staff-profile-container">
                                 <div class="pm-staff-profile-image-wrapper text-center">
                                     <div class="pm-staff-profile-image">
-                                        <img src="images/mentor.jpg" alt="" class="img-thumbnail img-circle" />
+                                        <img src="images/strongbox.jpg" alt="" class="img-thumbnail img-circle" />
                                     </div>
                                 </div>
                                 <div class="pm-staff-profile-details text-center">
@@ -478,7 +478,7 @@
                             <div class="pm-staff-profile-container">
                                 <div class="pm-staff-profile-image-wrapper text-center">
                                     <div class="pm-staff-profile-image">
-                                        <img src="images/mentor.jpg" alt="" class="img-thumbnail img-circle" />
+                                        <img src="images/vegeterianbox.jpg" alt="" class="img-thumbnail img-circle" />
                                     </div>
                                 </div>
                                 <div class="pm-staff-profile-details text-center">
@@ -529,7 +529,7 @@
                             <div class="pm-staff-profile-container">
                                 <div class="pm-staff-profile-image-wrapper text-center">
                                     <div class="pm-staff-profile-image">
-                                        <img src="images/mentor.jpg" alt="" class="img-thumbnail img-circle" />
+                                        <img src="images/freshbox.jpg" alt="" class="img-thumbnail img-circle" />
                                     </div>
                                 </div>
                                 <div class="pm-staff-profile-details text-center">
@@ -759,7 +759,7 @@
 
                             <div class="col-xs-12">
                                 <!-- Button -->
-                                <%--<button type="submit" id="submit" name="submit" class="form contact-form-button light-form-button oswald light">SEND EMAIL</button> --%>
+                              
                                 <asp:Button Text="Заказать " runat="server" OnClick="PlaceOrder" CssClass="form contact-form-button light-form-button oswald light" CausesValidation ="true"></asp:Button>
                             </div>
                             <!-- </form> -->

@@ -14,8 +14,8 @@ namespace Cabbage.Models
 {
     public class NotifySender
     {
-        Orders clientOrder;
-        public NotifySender(Orders order)
+        Order clientOrder;
+        public NotifySender(Order order)
         {
             clientOrder = order;
         }

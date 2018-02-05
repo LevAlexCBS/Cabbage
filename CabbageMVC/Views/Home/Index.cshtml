@@ -1,0 +1,703 @@
+﻿@model CabbageMVC.Models.Order
+@using CabbageMVC.Models
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<head>
+    <title>Kapusta</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="~/Content/css/font.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/css/imagehover.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/css/style.min.css" />
+
+
+    
+    <script src="~/Scripts/jquery.min.js"></script>
+    <script src="~/Scripts/jquery.easing.min.js"></script>
+
+    <script src="~/Scripts/bootstrap-formhelpers-phone.format.min.js"></script>
+    <script src="~/Scripts/bootstrap-formhelpers-phone.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+
+    <link rel="shortcut icon" href="~/Content/images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="~/Content/images/favicon.ico" type="image/ico" />
+</head>
+<body>
+    <div id="background"></div>
+
+    <div>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a class="navbar-brand" href="#"></a>
+
+                </div>
+
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#feature">О нас</a></li>
+                        <li><a href="#organisations">Акции</a></li>
+                        <li><a href="#work-shop">Меню</a></li>
+                        <li><a href="#faculity-member">Боксы</a></li>
+                        <li><a href="#courses">Фото</a></li>
+                        <li class="btn-trial"><a href="#contact">Заказать</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--/ Navigation bar-->
+        <!--Banner-->
+        <div class="banner">
+            <div class="bg-color">
+                <div class="container">
+                    <div class="row">
+                        <div class="banner-text text-center">
+                            <div class="text-border">
+
+                                <h2 class="text-dec">Kapusta</h2>
+                            </div>
+                            <div class="intro-para text-center quote">
+                                @*<p class="big-text">Learning Today . . . Leading Tomorrow.</p>*@
+                                <p class="small-text">
+                                    Вы постоянно заняты, и не хвататет времени для приготовления здоровой еды? Kapusta сделает это за Вас.
+                                    <br />
+                                    Наш сервис предоставляет услугу доставки здоровой еды (как отдельные ланчи, так и комплексное меню на день).
+                                    <br />
+                                    Поторопитесь сделать свой вкусный, а главное полезный заказ!
+                                </p>
+                                <a href="#contact" class="btn get-quote">Сделать заказ</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/ Banner-->
+        <!--Feature-->
+        <section id="feature" class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="header-section text-center">
+                        <h2>Почему Kapusta? :)</h2>
+                        <p>
+                            Капуста - сервис приготовления и доставки здоровой еды.
+                            Есть три причины, почему нужно обратиться именно к нам:
+                        </p>
+                        <hr class="bottom-line" />
+                    </div>
+                    <div class="feature-info">
+                        <div class="fea">
+                            <div class="col-md-4">
+                                <div class="heading pull-right">
+                                    <h4>Здоровое питание</h4>
+                                    <p>У нас только свежие продукты. Блюда готовятся с минимальным количеством соли и сахара.</p>
+                                </div>
+                                <div class="fea-img pull-left">
+                                    <img src="~/Content/images/food.jpg" alt="dostavka" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fea">
+                            <div class="col-md-4">
+                                <div class="heading pull-right">
+                                    <h4>Индивидуальный подход</h4>
+                                    <p>Разнообразие боксов. Подбор программы питания.</p>
+                                </div>
+                                <div class="fea-img pull-left">
+                                    <img src="~/Content/images/individ.jpg" alt="dostavka" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fea">
+                            <div class="col-md-4">
+                                <div class="heading pull-right">
+                                    <h4>Экономия времени</h4>
+                                    <p>Гарантируем быструю доставку качественной сбалансированной еды.</p>
+                                </div>
+                                <div class="fea-img pull-left">
+                                    <img src="~/Content/images/dostavka.jpg" alt="dostavka" />
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--/ feature-->
+        <!--Organisations-->
+        <section id="organisations" class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                            <div class="orga-stru">
+                                <h3>%</h3>
+                                <p>Действует скидка на заказ от 21 дня</p>
+                                <i class="fa fa-male"></i>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                            <div class="orga-stru">
+                                <h3>%</h3>
+                                <p>Действует скидка на заказ от 5 дней</p>
+                                <i class="fa fa-male"></i>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                            <div class="orga-stru">
+                                <h3>%</h3>
+                                <p>Первый заказ 350 грн/box</p>
+                                <i class="fa fa-male"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="detail-info">
+                            <hgroup>
+                                <h3 class="det-txt">Специальное предложение</h3>
+                                @*
+                                    <h4 class="sm-txt">(Revised and Updated for 2016)</h4>*@
+                            </hgroup>
+                            <p class="det-p">
+                                Доступен заказ детского и постного меню<br />
+                                Заказ ланча с 7<sup>00</sup> до 15<sup>00</sup>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--/ Organisations-->
+        <!--work-shop-->
+        <section id="work-shop" class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="header-section text-center">
+                        <h2>Примеры меню для одного дня</h2>
+                        <p>
+                            Выбрав бокс и пол, Вы можете просмотреть полноценное меню на целый день.
+                        </p>
+                        <hr class="bottom-line" />
+                    </div>
+
+                    <div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--/ work-shop-->
+        <!--Faculity member-->
+        <section id="faculity-member" class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="header-section text-center">
+                        <h2>
+                            Описание боксов и цены
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nesciunt vitae,<br />
+                                maiores, magni dolorum aliquam.
+                            </p>
+                        </h2>
+                        <hr class="bottom-line" />
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="pm-staff-profile-container">
+                            <div class="pm-staff-profile-image-wrapper text-center">
+                                <div class="pm-staff-profile-image">
+                                    <img src="~/Content/images/slimbox.jpg" alt="" class="img-thumbnail img-circle" />
+                                </div>
+                            </div>
+                            <div class="pm-staff-profile-details text-center">
+                                <p class="pm-staff-profile-name">SlimBox</p>
+
+
+                                <div class="panel content-for-popover_1 hidden">
+                                    <table>
+                                        <tr>
+                                            <th>Тип заказа</th>
+                                            <th>Женщинам:</th>
+                                            <th>Мужчинам:</th>
+                                        </tr>
+                                        <tr>
+                                            <td>от 1 дня</td>
+                                            <td>370 грн</td>
+                                            <td>370 грн</td>
+                                        </tr>
+                                        <tr>
+                                            <td>от 5 дня</td>
+                                            <td>350 грн</td>
+                                            <td>350 грн</td>
+                                        </tr>
+                                        <tr>
+                                            <td>от 21 дня</td>
+                                            <td>330 грн</td>
+                                            <td>330 грн</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Пробный заказ</td>
+                                            <td>340 грн</td>
+                                            <td>340 грн</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <p class="pm-staff-profile-title">1250 кКал</p>
+
+                                <p class="pm-staff-profile-bio">Здоровая еда для тех, кто хочет быстро, а главное безвредно похудеть.</p>
+                                <button class="accordion" data-toggle="popover"
+                                        data-popover-content="content-for-popover_1"
+                                        data-placement="bottom" type="button">
+                                    Цена
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="pm-staff-profile-container">
+                            <div class="pm-staff-profile-image-wrapper text-center">
+                                <div class="pm-staff-profile-image">
+                                    <img src="~/Content/images/fitbox.jpg" alt="" class="img-thumbnail img-circle" />
+                                </div>
+                            </div>
+                            <div class="pm-staff-profile-details text-center">
+                                <p class="pm-staff-profile-name">FitBox</p>
+
+
+                                <div class="panel content-for-popover_2 hidden">
+                                    <table>
+                                        <tr>
+                                            <th>Тип заказа</th>
+                                            <th>Женщинам:</th>
+                                            <th>Мужчинам:</th>
+                                        </tr>
+                                        <tr>
+                                            <td>от 1 дня</td>
+                                            <td>390 грн</td>
+                                            <td>390 грн</td>
+                                        </tr>
+                                        <tr>
+                                            <td>от 5 дня</td>
+                                            <td>370 грн</td>
+                                            <td>370 грн</td>
+                                        </tr>
+                                        <tr>
+                                            <td>от 21 дня</td>
+                                            <td>350 грн</td>
+                                            <td>350 грн</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Пробный заказ</td>
+                                            <td>360 грн</td>
+                                            <td>360 грн</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <p class="pm-staff-profile-title">1450 кКал</p>
+                                <p class="pm-staff-profile-bio">Здоровая еда для тех, кто худеет при физических нагрузках.</p>
+                                <button class="accordion" data-toggle="popover"
+                                        data-popover-content="content-for-popover_2"
+                                        data-placement="bottom" type="button">
+                                    Цена
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="pm-staff-profile-container">
+                            <div class="pm-staff-profile-image-wrapper text-center">
+                                <div class="pm-staff-profile-image">
+                                    <img src="~/Content/images/balancebox.jpg" alt="" class="img-thumbnail img-circle" />
+                                </div>
+                            </div>
+                            <div class="pm-staff-profile-details text-center">
+                                <p class="pm-staff-profile-name">BalanceBox</p>
+
+
+                                <div class="panel content-for-popover_3 hidden">
+                                    <table>
+                                        <tr>
+                                            <th>Тип заказа</th>
+                                            <th>Женщинам:</th>
+                                            <th>Мужчинам:</th>
+                                        </tr>
+                                        <tr>
+                                            <td>от 1 дня</td>
+                                            <td>420 грн</td>
+                                            <td>420 грн</td>
+                                        </tr>
+                                        <tr>
+                                            <td>от 5 дня</td>
+                                            <td>400 грн</td>
+                                            <td>400 грн</td>
+                                        </tr>
+                                        <tr>
+                                            <td>от 21 дня</td>
+                                            <td>380 грн</td>
+                                            <td>380 грн</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Пробный заказ</td>
+                                            <td>390 грн</td>
+                                            <td>390 грн</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <p class="pm-staff-profile-title">1750 кКал</p>
+                                <p class="pm-staff-profile-bio">Сбалансированное здоровое питание.</p>
+                                <button class="accordion" data-toggle="popover"
+                                        data-popover-content="content-for-popover_3"
+                                        data-placement="bottom" type="button">
+                                    Цена
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="pm-staff-profile-container">
+                            <div class="pm-staff-profile-image-wrapper text-center">
+                                <div class="pm-staff-profile-image">
+                                    <img src="~/Content/images/strongbox.jpg" alt="" class="img-thumbnail img-circle" />
+                                </div>
+                            </div>
+                            <div class="pm-staff-profile-details text-center">
+                                <p class="pm-staff-profile-name">StrongBox</p>
+
+
+                                <div class="panel content-for-popover_4 hidden">
+                                    <table>
+                                        <tr>
+                                            <th>Тип заказа</th>
+                                            <th>Женщинам:</th>
+                                            <th>Мужчинам:</th>
+                                        </tr>
+                                        <tr>
+                                            <td>от 1 дня</td>
+                                            <td>470 грн</td>
+                                            <td>500 грн</td>
+                                        </tr>
+                                        <tr>
+                                            <td>от 5 дня</td>
+                                            <td>440 грн</td>
+                                            <td>470 грн</td>
+                                        </tr>
+                                        <tr>
+                                            <td>от 21 дня</td>
+                                            <td>410 грн</td>
+                                            <td>440 грн</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Пробный заказ</td>
+                                            <td>440 грн</td>
+                                            <td>470 грн</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <p class="pm-staff-profile-title">2500/3000 кКал</p>
+                                <p class="pm-staff-profile-bio">Набор мышечной массы при физических нагрузках.</p>
+                                <button class="accordion" data-toggle="popover"
+                                        data-popover-content="content-for-popover_4"
+                                        data-placement="bottom" type="button">
+                                    Цена
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="pm-staff-profile-container">
+                            <div class="pm-staff-profile-image-wrapper text-center">
+                                <div class="pm-staff-profile-image">
+                                    <img src="~/Content/images/vegeterianbox.jpg" alt="" class="img-thumbnail img-circle" />
+                                </div>
+                            </div>
+                            <div class="pm-staff-profile-details text-center">
+                                <p class="pm-staff-profile-name">VegeterianBox</p>
+
+
+                                <div class="panel content-for-popover_5 hidden">
+                                    <table>
+                                        <tr>
+                                            <th>Тип заказа</th>
+                                            <th>Женщинам:</th>
+                                            <th>Мужчинам:</th>
+                                        </tr>
+                                        <tr>
+                                            <td>от 1 дня</td>
+                                            <td>420 грн</td>
+                                            <td>440 грн</td>
+                                        </tr>
+                                        <tr>
+                                            <td>от 5 дня</td>
+                                            <td>400 грн</td>
+                                            <td>420 грн</td>
+                                        </tr>
+                                        <tr>
+                                            <td>от 21 дня</td>
+                                            <td>380 грн</td>
+                                            <td>400 грн</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Пробный заказ</td>
+                                            <td>390 грн</td>
+                                            <td>410 грн</td>
+                                        </tr>
+                                    </table>
+                                </div>
+
+
+                                <p class="pm-staff-profile-title">1750/2000 кКал</p>
+                                <p class="pm-staff-profile-bio">Здоровая сбалансированная еда без мясных продуктов.</p>
+                                <button class="accordion" data-toggle="popover"
+                                        data-popover-content="content-for-popover_5"
+                                        data-placement="bottom" type="button">
+                                    Цена
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="pm-staff-profile-container">
+                            <div class="pm-staff-profile-image-wrapper text-center">
+                                <div class="pm-staff-profile-image">
+                                    <img src="~/Content/images/freshbox.jpg" alt="" class="img-thumbnail img-circle" />
+                                </div>
+                            </div>
+                            <div class="pm-staff-profile-details text-center">
+                                <p class="pm-staff-profile-name">FreshBox</p>
+
+                                <div class="panel content-for-popover_6 hidden">
+                                    <table>
+                                        <tr>
+                                            <th>Тип заказа</th>
+                                            <th>Женщинам:</th>
+                                            <th>Мужчинам:</th>
+                                        </tr>
+                                        <tr>
+                                            <td>от 1 дня</td>
+                                            <td>420 грн</td>
+                                            <td>440 грн</td>
+                                        </tr>
+                                        <tr>
+                                            <td>от 5 дня</td>
+                                            <td>400 грн</td>
+                                            <td>420 грн</td>
+                                        </tr>
+                                        <tr>
+                                            <td>от 21 дня</td>
+                                            <td>380 грн</td>
+                                            <td>400 грн</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Пробный заказ</td>
+                                            <td>390 грн</td>
+                                            <td>410 грн</td>
+                                        </tr>
+                                    </table>
+                                </div>
+
+                                <p class="pm-staff-profile-title">- кКал</p>
+                                <p class="pm-staff-profile-bio">Здоровая сбалансированная еда без продуктов животного происхождения.</p>
+                                <button class="accordion" data-toggle="popover"
+                                        data-popover-content="content-for-popover_6"
+                                        data-placement="bottom" type="button">
+                                    Цена
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--/ Faculity member-->
+        <!--Courses-->
+        <section id="courses" class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="header-section text-center">
+                        <h2>Фото наших блюд</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nesciunt vitae,<br />
+                            maiores, magni dolorum aliquam.
+                        </p>
+                        <hr class="bottom-line" />
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 padleft-right">
+                        <figure class="imghvr-fold-up">
+                            <img src="~/Content/images/course01.jpg" class="img-responsive" />
+                            <figcaption>
+                                <h3>Course Name</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, nostrum veniam consequatur libero fugiat, similique quis.</p>
+                            </figcaption>
+                            <a href="#"></a>
+                        </figure>
+                    </div>
+                    <div class="col-md-4 col-sm-6 padleft-right">
+                        <figure class="imghvr-fold-up">
+                            <img src="~/Content/images/course02.jpg" class="img-responsive" />
+                            <figcaption>
+                                <h3>Course Name</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, nostrum veniam consequatur libero fugiat, similique quis.</p>
+                            </figcaption>
+                            <a href="#"></a>
+                        </figure>
+                    </div>
+                    <div class="col-md-4 col-sm-6 padleft-right">
+                        <figure class="imghvr-fold-up">
+                            <img src="~/Content/images/course03.jpg" class="img-responsive" />
+                            <figcaption>
+                                <h3>Course Name</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, nostrum veniam consequatur libero fugiat, similique quis.</p>
+                            </figcaption>
+                            <a href="#"></a>
+                        </figure>
+                    </div>
+                    <div class="col-md-4 col-sm-6 padleft-right">
+                        <figure class="imghvr-fold-up">
+                            <img src="~/Content/images/course04.jpg" class="img-responsive" />
+                            <figcaption>
+                                <h3>Course Name</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, nostrum veniam consequatur libero fugiat, similique quis.</p>
+                            </figcaption>
+                            <a href="#"></a>
+                        </figure>
+                    </div>
+                    <div class="col-md-4 col-sm-6 padleft-right">
+                        <figure class="imghvr-fold-up">
+                            <img src="~/Content/images/course05.jpg" class="img-responsive" />
+                            <figcaption>
+                                <h3>Course Name</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, nostrum veniam consequatur libero fugiat, similique quis.</p>
+                            </figcaption>
+                            <a href="#"></a>
+                        </figure>
+                    </div>
+                    <div class="col-md-4 col-sm-6 padleft-right">
+                        <figure class="imghvr-fold-up">
+                            <img src="~/Content/images/course06.jpg" class="img-responsive" />
+                            <figcaption>
+                                <h3>Course Name</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, nostrum veniam consequatur libero fugiat, similique quis.</p>
+                            </figcaption>
+                            <a href="#"></a>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--/ Courses-->
+        <!--Contact-->
+        <section id="contact" class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="header-section text-center">
+                        <h2>Форма заказа</h2>
+                        <p>
+                            Заказы принимаются с 7<sup>00</sup> до 15<sup>00</sup> с доставкой на следующий день. Доставка боксов с 6<sup>00</sup>.
+                            Доставка ланчей с 12<sup>00</sup> до 15<sup>00</sup>.
+                        </p>
+                        <hr class="bottom-line" />
+                    </div>
+
+                    <div>
+                        >
+
+                    </div>
+                    <div id="errormessage"></div>
+                    <!-- <form action="" method="post" role="form" class="contactForm"> -->
+                    @using (Html.BeginForm())
+                    {
+                        <div id="orderform">
+                            <div class="col-md-6 col-sm-6 col-xs-12 left">
+                                <div class="form-group">
+
+                                    @Html.TextBoxFor(x => x.Name, new { @class = "form-control form", @placeholder = "Ваше имя" })
+
+                                </div>
+                                <div class="form-group">
+                                    @Html.TextBoxFor(x => x.Phone, new { @class = "form-control form input-medium bfh-phone", @data_format = "+38 (ddd) ddd-dddd" })
+
+                                </div>
+                                <div class="form-group">
+                                    @Html.TextBoxFor(x => x.Email, new { @class = "form-control form", @placeholder = "Ваш e-mail" })
+
+                                </div>
+                                <div class="form-group">
+                                    @Html.TextBoxFor(x => x.Address, new { @class = "form-control form", @placeholder = "Адрес доставки" })
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-sm-6 col-xs-12 right">
+                                <div class="form-group">
+
+
+                                    <div class="form-group">
+                                        @Html.EnumDropDownListFor(x => x.Sex, new { @class = "form-control form" })
+                                    </div>
+                                    <div class="form-group">
+                                        @Html.EnumDropDownListFor(x => x.BoxType, new { @class = "form-control form" })
+                                        Количество дней: @Html.DropDownList("Days",
+                                                        Enumerable.Range(1, 100)
+                                                        .Select(i => new SelectListItem { Text = i.ToString(), Value = i.ToString()}), new { @class = "form-control form" } )
+                                    </div>
+                                    <div class="form-group">
+
+                                        @Html.TextAreaFor(x => x.Comment, new { @class = "form-control form", @placeholder = "Коментарии к заказу. Напишите удобное для вас время доставки с промежутком в 1 час.", @Rows = "5" })
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-xs-12">
+                                <!-- Button -->
+                                <input type="submit" name="Submit" />
+                            </div>
+                            <!-- </form> -->
+                        </div>
+                    }
+                </div>
+            </div>
+        </section>
+
+        <!--/ Contact-->
+        <!--Footer-->
+        <footer id="footer" class="footer">
+            <div class="container text-center">
+                <!-- End newsletter-form -->
+                <ul class="social-links">
+                    <li><a href="https://www.instagram.com/kapusta7day/"><i class="fa fa-instagram fa-fw"></i></a></li>
+                    <li><a href="https://facebook.com/kapusta7day/"><i class="fa fa-facebook fa-fw"></i></a></li>
+                    <li><a href="https://twitter.com/kapusta7day"><i class="fa fa-twitter fa-fw"></i></a></li>
+                </ul>
+                2016 Mentor Theme. All rights reserved
+                <div class="credits">
+                    Designed by <a href="https://bootstrapmade.com/">BootstrapMade.com</a>
+                </div>
+            </div>
+        </footer>
+        <!--/ Footer-->
+        <script src="~/Scripts/custom.js"></script>
+
+    </div>
+
+
+</body>
+</html>
