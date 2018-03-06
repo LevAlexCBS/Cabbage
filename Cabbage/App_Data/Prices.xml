@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<prices>
+  <price gender ="Male" boxtype ="BalanceBox" discount ="0" >390</price>
+  <price gender ="Male" boxtype ="BalanceBox" discount ="1" >420</price>
+  <price gender ="Male" boxtype ="BalanceBox" discount ="2" >400</price>
+  <price gender ="Male" boxtype ="BalanceBox" discount ="3" >380</price>
+
+  <price gender ="Female" boxtype ="BalanceBox" discount ="0" >390</price>
+  <price gender ="Female" boxtype ="BalanceBox" discount ="1" >420</price>
+  <price gender ="Female" boxtype ="BalanceBox" discount ="2" >400</price>
+  <price gender ="Female" boxtype ="BalanceBox" discount ="3" >380</price>
+  <!--//-->
+  <price gender ="Male" boxtype ="SlimBox" discount ="0" >340</price>
+  <price gender ="Male" boxtype ="SlimBox" discount ="1" >370</price>
+  <price gender ="Male" boxtype ="SlimBox" discount ="2" >350</price>
+  <price gender ="Male" boxtype ="SlimBox" discount ="3" >330</price>
+
+  <price gender ="Female" boxtype ="SlimBox" discount ="0" >340</price>
+  <price gender ="Female" boxtype ="SlimBox" discount ="1" >370</price>
+  <price gender ="Female" boxtype ="SlimBox" discount ="2" >350</price>
+  <price gender ="Female" boxtype ="SlimBox" discount ="3" >330</price>
+  <!--//-->
+  <price gender ="Male" boxtype ="FitBox" discount ="0" >360</price>
+  <price gender ="Male" boxtype ="FitBox" discount ="1" >390</price>
+  <price gender ="Male" boxtype ="FitBox" discount ="2" >370</price>
+  <price gender ="Male" boxtype ="FitBox" discount ="3" >350</price>
+
+  <price gender ="Female" boxtype ="FitBox" discount ="0" >360</price>
+  <price gender ="Female" boxtype ="FitBox" discount ="1" >390</price>
+  <price gender ="Female" boxtype ="FitBox" discount ="2" >370</price>
+  <price gender ="Female" boxtype ="FitBox" discount ="3" >350</price>
+  <!--//-->
+  <price gender ="Male" boxtype ="StrongBox" discount ="0" >470</price>
+  <price gender ="Male" boxtype ="StrongBox" discount ="1" >500</price>
+  <price gender ="Male" boxtype ="StrongBox" discount ="2" >470</price>
+  <price gender ="Male" boxtype ="StrongBox" discount ="3" >440</price>
+
+  <price gender ="Female" boxtype ="StrongBox" discount ="0" >470</price>
+  <price gender ="Female" boxtype ="StrongBox" discount ="1" >440</price>
+  <price gender ="Female" boxtype ="StrongBox" discount ="2" >410</price>
+  <price gender ="Female" boxtype ="StrongBox" discount ="3" >380</price>
+  <!--//-->
+  <price gender ="Male" boxtype ="VegeterianBox" discount ="0" >410</price>
+  <price gender ="Male" boxtype ="VegeterianBox" discount ="1" >440</price>
+  <price gender ="Male" boxtype ="VegeterianBox" discount ="2" >420</price>
+  <price gender ="Male" boxtype ="VegeterianBox" discount ="3" >400</price>
+
+  <price gender ="Female" boxtype ="VegeterianBox" discount ="0" >390</price>
+  <price gender ="Female" boxtype ="VegeterianBox" discount ="1" >420</price>
+  <price gender ="Female" boxtype ="VegeterianBox" discount ="2" >400</price>
+  <price gender ="Female" boxtype ="VegeterianBox" discount ="3" >380</price>
+  <!--//-->
+  <price gender ="Male" boxtype ="FreshBox" discount ="0" >410</price>
+  <price gender ="Male" boxtype ="FreshBox" discount ="1" >440</price>
+  <price gender ="Male" boxtype ="FreshBox" discount ="2" >420</price>
+  <price gender ="Male" boxtype ="FreshBox" discount ="3" >400</price>
+
+  <price gender ="Female" boxtype ="FreshBox" discount ="0" >390</price>
+  <price gender ="Female" boxtype ="FreshBox" discount ="1" >420</price>
+  <price gender ="Female" boxtype ="FreshBox" discount ="2" >400</price>
+  <price gender ="Female" boxtype ="FreshBox" discount ="3" >380</price>
+  <!--//-->
+</prices>

@@ -1,11 +1,11 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Cabbage.Default" Async ="true"%>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Cabbage.Default" Async="true" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
 <head runat="server">
     <title>Kapusta</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="css/font.css" />
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
@@ -16,9 +16,9 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.easing.min.js"></script>
 
-    <script src="js/bootstrap-formhelpers-phone.format.min.js"></script>
-    <script src="js/bootstrap-formhelpers-phone.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script async src="js/bootstrap-formhelpers-phone.format.min.js"></script>
+    <script async src="js/bootstrap-formhelpers-phone.min.js"></script>
+    <script async src="js/bootstrap.min.js"></script>
 
     <link runat="server" rel="shortcut icon" href="~/favicon.ico" type="image/x-icon" />
     <link runat="server" rel="icon" href="~/favicon.ico" type="image/ico" />
@@ -70,9 +70,9 @@
                                     <%--<p class="big-text">Learning Today . . . Leading Tomorrow.</p>--%>
                                     <p class="small-text">
                                         Вы постоянно заняты, и не хвататет времени для приготовления здоровой еды? Kapusta сделает это за Вас.
-                                        <br/>
+                                        <br />
                                         Наш сервис предоставляет услугу доставки здоровой еды (как отдельные ланчи, так и комплексное меню на день).
-                                        <br/>
+                                        <br />
                                         Поторопитесь сделать свой вкусный, а главное полезный заказ!
                                     </p>
                                     <a href="#contact" class="btn get-quote">Сделать заказ</a>
@@ -172,8 +172,41 @@
                                     <%--<h4 class="sm-txt">(Revised and Updated for 2016)</h4>--%>
                                 </hgroup>
                                 <p class="det-p">
-                                    Доступен заказ детского и постного меню<br/>
+                                    Доступен заказ детского и постного меню<br />
                                     Заказ ланча с 7<sup>00</sup> до 15<sup>00</sup>
+                                    
+                                    <table  class ="table table-active" cellspacing="0"  border="1">
+                                        <tbody>
+                                            <tr>
+                                                <th scope="col">Наименование</th>
+                                                <th scope="col">Выход блюда</th>
+                                            </tr>
+                                            <tr class ="table-success">
+                                                <td>Суп дня</td>
+                                                <td>200 г</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Блюдо с мяса/рыбы</td>
+                                                <td>130 г</td>
+                                            </tr>
+                                            <tr class ="table-success">
+                                                <td>Гарнир</td>
+                                                <td>150 г</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Овощной салат</td>
+                                                <td>180 г</td>
+                                            </tr>
+                                            <tr class ="table-success">
+                                                <td>Напиток</td>
+                                                <td>200 мл</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Всего</b></td>
+                                                <td>660 г/200 мл</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </p>
                             </div>
                         </div>
@@ -225,27 +258,27 @@
                                     <SortedAscendingHeaderStyle BackColor="#246B61" />
                                     <SortedDescendingCellStyle BackColor="#D4DFE1" />
                                     <SortedDescendingHeaderStyle BackColor="#15524A" />
-                                    <Columns >
+                                    <Columns>
                                         <asp:BoundField DataField="name" HeaderText="" HtmlEncode="False" />
                                         <asp:BoundField DataField="dishout" HeaderText="Выход блюда, г" ItemStyle-Width="100px">
-                                        <HeaderStyle CssClass="text-center" />
-                                        <ItemStyle CssClass="text-center" Width="100px" />
+                                            <HeaderStyle CssClass="text-center" />
+                                            <ItemStyle CssClass="text-center" Width="100px" />
                                         </asp:BoundField>
-                                        <asp:BoundField DataField="caloricity" HeaderText="Калорийность" ItemStyle-Width="115px" >
-                                        <HeaderStyle CssClass="text-center" />
-                                        <ItemStyle CssClass="text-center" Width="115px" />
+                                        <asp:BoundField DataField="caloricity" HeaderText="Калорийность" ItemStyle-Width="115px">
+                                            <HeaderStyle CssClass="text-center" />
+                                            <ItemStyle CssClass="text-center" Width="115px" />
                                         </asp:BoundField>
-                                        <asp:BoundField DataField="proteins" HeaderText="Белки" ItemStyle-Width="75px" >
-                                        <HeaderStyle CssClass="text-center" />
-                                        <ItemStyle CssClass="text-center" Width="75px" />
+                                        <asp:BoundField DataField="proteins" HeaderText="Белки" ItemStyle-Width="75px">
+                                            <HeaderStyle CssClass="text-center" />
+                                            <ItemStyle CssClass="text-center" Width="75px" />
                                         </asp:BoundField>
                                         <asp:BoundField DataField="fats" HeaderText="Жиры" ItemStyle-Width="75px" ItemStyle-CssClass="text-center" ItemStyle-HorizontalAlign="Center">
-                                        <HeaderStyle CssClass="text-center" />
-                                        <ItemStyle CssClass="text-center" HorizontalAlign="Center" Width="75px" />
+                                            <HeaderStyle CssClass="text-center" />
+                                            <ItemStyle CssClass="text-center" HorizontalAlign="Center" Width="75px" />
                                         </asp:BoundField>
-                                        <asp:BoundField DataField="carbohydrates" HeaderText="Углеводы" ItemStyle-Width="80px"  HeaderStyle-HorizontalAlign="Center" >
-                                        <HeaderStyle CssClass="text-center" HorizontalAlign="Center" />
-                                        <ItemStyle CssClass="text-center" Width="80px" />
+                                        <asp:BoundField DataField="carbohydrates" HeaderText="Углеводы" ItemStyle-Width="80px" HeaderStyle-HorizontalAlign="Center">
+                                            <HeaderStyle CssClass="text-center" HorizontalAlign="Center" />
+                                            <ItemStyle CssClass="text-center" Width="80px" />
                                         </asp:BoundField>
                                     </Columns>
                                 </asp:GridView>
@@ -268,11 +301,11 @@
                         <div class="header-section text-center">
                             <h2>Описание боксов и цены  
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nesciunt vitae,<br/>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nesciunt vitae,<br />
                                     maiores, magni dolorum aliquam.
                                 </p>
                             </h2>
-                            <hr class="bottom-line"/>
+                            <hr class="bottom-line" />
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-4">
                             <div class="pm-staff-profile-container">
@@ -585,10 +618,7 @@
                     <div class="row">
                         <div class="header-section text-center">
                             <h2>Фото наших блюд</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nesciunt vitae,<br/>
-                                maiores, magni dolorum aliquam.
-                            </p>
+                           
                             <hr class="bottom-line" />
                         </div>
                     </div>
@@ -599,60 +629,60 @@
                             <figure class="imghvr-fold-up">
                                 <img src="images/course01.jpg" class="img-responsive" />
                                 <figcaption>
-                                    <h3>Course Name</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, nostrum veniam consequatur libero fugiat, similique quis.</p>
+                                    <h3>Завтрак</h3>
+                                    <p>Нежные сырники с ягодами на завтрак поднимут Ваше настроение:)</p>
                                 </figcaption>
-                                <a href="#"></a>
+                                <%--<a href="#"></a>--%>
                             </figure>
                         </div>
                         <div class="col-md-4 col-sm-6 padleft-right">
                             <figure class="imghvr-fold-up">
                                 <img src="images/course02.jpg" class="img-responsive" />
                                 <figcaption>
-                                    <h3>Course Name</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, nostrum veniam consequatur libero fugiat, similique quis.</p>
+                                    <h3>Завтрак</h3>
+                                    <p>Легкая овсяная каша с карамелизированными яблоками и корицей сделает Ваш завтрак вкусным и полезным:)</p>
                                 </figcaption>
-                                <a href="#"></a>
-                            </figure>
-                        </div>
-                        <div class="col-md-4 col-sm-6 padleft-right">
-                            <figure class="imghvr-fold-up">
-                                <img src="images/course03.jpg" class="img-responsive" />
-                                <figcaption>
-                                    <h3>Course Name</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, nostrum veniam consequatur libero fugiat, similique quis.</p>
-                                </figcaption>
-                                <a href="#"></a>
+                                <%--<a href="#"></a>--%>
                             </figure>
                         </div>
                         <div class="col-md-4 col-sm-6 padleft-right">
                             <figure class="imghvr-fold-up">
                                 <img src="images/course04.jpg" class="img-responsive" />
                                 <figcaption>
-                                    <h3>Course Name</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, nostrum veniam consequatur libero fugiat, similique quis.</p>
+                                    <h3>Ланч</h3>
+                                    <p>Легкий салат с лососем, яйцом и овощами станет вкусным и полезным ланчем для Вас:)</p>
                                 </figcaption>
-                                <a href="#"></a>
-                            </figure>
-                        </div>
-                        <div class="col-md-4 col-sm-6 padleft-right">
-                            <figure class="imghvr-fold-up">
-                                <img src="images/course05.jpg" class="img-responsive" />
-                                <figcaption>
-                                    <h3>Course Name</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, nostrum veniam consequatur libero fugiat, similique quis.</p>
-                                </figcaption>
-                                <a href="#"></a>
+                                <%--<a href="#"></a>--%>
                             </figure>
                         </div>
                         <div class="col-md-4 col-sm-6 padleft-right">
                             <figure class="imghvr-fold-up">
                                 <img src="images/course06.jpg" class="img-responsive" />
                                 <figcaption>
-                                    <h3>Course Name</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, nostrum veniam consequatur libero fugiat, similique quis.</p>
+                                    <h3>Обед</h3>
+                                    <p>Посреди дня нужно больше энергии! Например, вкусные куриные рулеты с овощами гриль станут подходящим обедом для Вас:)</p>
                                 </figcaption>
-                                <a href="#"></a>
+                                <%--<a href="#"></a>--%>
+                            </figure>
+                        </div>
+                        <div class="col-md-4 col-sm-6 padleft-right">
+                            <figure class="imghvr-fold-up">
+                                <img src="images/course05.jpg" class="img-responsive" />
+                                <figcaption>
+                                    <h3>Обед</h3>
+                                    <p>Почему бы  не пообедать крем-супом с зеленого горошка? Вкусно, легко, а главное - полезно:)</p>
+                                </figcaption>
+                                <%--<a href="#"></a>--%>
+                            </figure>
+                        </div>
+                        <div class="col-md-4 col-sm-6 padleft-right">
+                            <figure class="imghvr-fold-up">
+                                <img src="images/course03.jpg" class="img-responsive" />
+                                <figcaption>
+                                    <h3>Ужин</h3>
+                                    <p>Как насчет сочного лосося на пару с овощами  на ужин?:)</p>
+                                </figcaption>
+                                <%--<a href="#"></a>--%>
                             </figure>
                         </div>
                     </div>
@@ -661,126 +691,159 @@
             <!--/ Courses-->
 
             <!--Contact-->
-            <section id="contact" class="section-padding">
-                <div class="container">
-                    <div class="row">
-                        <div class="header-section text-center">
-                            <h2>Форма заказа</h2>
-                            <p>
-                                Заказы принимаются с 7<sup>00</sup> до 15<sup>00</sup> с доставкой на следующий день. Доставка боксов с 6<sup>00</sup>.
-                                Доставка ланчей с 12<sup>00</sup> до 15<sup>00</sup>. </p>
-                            <hr class="bottom-line" />
-                        </div>
-                        <div>
-                            <asp:RequiredFieldValidator ID="NameValidator" runat="server"
-                                ErrorMessage="Пожалуйста, введите свое имя"
-                                ControlToValidate="txbName"
-                                ForeColor="red"
-                                Display="None">
-                            </asp:RequiredFieldValidator>
-                            <asp:RequiredFieldValidator ID="PhoneValidator" runat="server"
-                                ErrorMessage="Пожалуйста, введите свой номер телефона"
-                                ControlToValidate="txbPhone"
-                                ForeColor="red"
-                                Display="None">
-                            </asp:RequiredFieldValidator>
-                            <asp:RegularExpressionValidator ID="PhoneValidatorExp"
-                                runat="server"
-                                ErrorMessage="Номер телефона в формате +38 (0XX) XXX-XXXX"
-                                ForeColor="red"
-                                ControlToValidate="txbPhone"
-                                ValidationExpression="^\+38 \(\d{3}\) \d{3}-\d{2}\d{2}$"
-                                Display="None">            
-                            </asp:RegularExpressionValidator>
-                            <asp:RequiredFieldValidator ID="AddressValidator" runat="server"
-                                ErrorMessage="Пожалуйста, введите адрес доставки"
-                                ControlToValidate="txbAdr"
-                                ForeColor="red"
-                                Display="None">
-                            </asp:RequiredFieldValidator>
-                            <asp:RegularExpressionValidator ID="MailValidator" runat="server"
-                                ErrorMessage="Пожалуйста, введите првильный email"
-                                ControlToValidate="txbEmail"
-                                ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"
-                                Display="None"></asp:RegularExpressionValidator>
-                            <asp:ValidationSummary ID="ValidationSummary"
-                                runat="server"
-                                ShowMessageBox="true"
-                                ShowSummary="false" />
-
-                        </div>
-                        <div id="errormessage"></div>
-                        <!-- <form action="" method="post" role="form" class="contactForm"> -->
-                        <div id="orderform">
-                            <div class="col-md-6 col-sm-6 col-xs-12 left">
-                                <div class="form-group">
-
-                                    <asp:TextBox ID="txbName" runat="server" CssClass="form-control form" placeholder="Ваше имя"></asp:TextBox>
+            <asp:UpdatePanel ID="UpdatePanel2" runat="server">
+                <ContentTemplate>
+                    <section id="contact" class="section-padding">
+                        <div class="container">
+                            <div class="row">
+                                <div class="header-section text-center">
+                                    <h2>Форма заказа</h2>
+                                    <p>
+                                        Заказы принимаются с 7<sup>00</sup> до 15<sup>00</sup> с доставкой на следующий день. Доставка боксов с 6<sup>00</sup>.
+                                Доставка ланчей с 12<sup>00</sup> до 15<sup>00</sup>.
+                                    </p>
+                                    <hr class="bottom-line" />
+                                </div>
+                                <div>
+                                    <asp:RequiredFieldValidator ID="NameValidator" runat="server"
+                                        ErrorMessage="Пожалуйста, введите свое имя"
+                                        ControlToValidate="txbName"
+                                        ForeColor="red"
+                                        Display="None">
+                                    </asp:RequiredFieldValidator>
+                                    <asp:RequiredFieldValidator ID="PhoneValidator" runat="server"
+                                        ErrorMessage="Пожалуйста, введите свой номер телефона"
+                                        ControlToValidate="txbPhone"
+                                        ForeColor="red"
+                                        Display="None">
+                                    </asp:RequiredFieldValidator>
+                                    <asp:RegularExpressionValidator ID="PhoneValidatorExp"
+                                        runat="server"
+                                        ErrorMessage="Номер телефона в формате +38 (0XX) XXX-XXXX"
+                                        ForeColor="red"
+                                        ControlToValidate="txbPhone"
+                                        ValidationExpression="^\+38 \(\d{3}\) \d{3}-\d{2}\d{2}$"
+                                        Display="None">            
+                                    </asp:RegularExpressionValidator>
+                                    <asp:RequiredFieldValidator ID="AddressValidator" runat="server"
+                                        ErrorMessage="Пожалуйста, введите адрес доставки"
+                                        ControlToValidate="txbAdr"
+                                        ForeColor="red"
+                                        Display="None">
+                                    </asp:RequiredFieldValidator>
+                                    <asp:RegularExpressionValidator ID="MailValidator" runat="server"
+                                        ErrorMessage="Пожалуйста, введите првильный email"
+                                        ControlToValidate="txbEmail"
+                                        ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"
+                                        Display="None"></asp:RegularExpressionValidator>
+                                    <asp:ValidationSummary ID="ValidationSummary"
+                                        runat="server"
+                                        ShowMessageBox="true"
+                                        ShowSummary="false" />
 
                                 </div>
-                                <div class="form-group">
-                                    <asp:TextBox ID="txbPhone" runat="server" CssClass="form-control form input-medium bfh-phone" data-format="+38 (ddd) ddd-dddd" placeholder="Ваш телефон (+380XXXXXXXXX)"></asp:TextBox>
+                                <div id="errormessage"></div>
 
-                                </div>
-                                <div class="form-group">
-                                    <asp:TextBox ID="txbEmail" runat="server" CssClass="form-control form" placeholder="Ваш e-mail"></asp:TextBox>
+                                <div id="orderform">
 
-                                </div>
-                                <div class="form-group">
-                                    <asp:TextBox ID="txbAdr" runat="server" CssClass="form-control form" placeholder="Адрес доставки"></asp:TextBox>
+                                    <div class="col-md-6 col-sm-6 col-xs-12 left">
+                                        <div class="form-group">
 
-                                </div>
-                            </div>
+                                            <asp:TextBox ID="txbName" runat="server" CssClass="form-control form" placeholder="Ваше имя"></asp:TextBox>
 
-                            <div class="col-md-6 col-sm-6 col-xs-12 right">
-                                <div class="form-group">
+                                        </div>
+                                        <div class="form-group">
+                                            <asp:TextBox ID="txbPhone" runat="server" CssClass="form-control form input-medium bfh-phone"
+                                                data-format="+38 (ddd) ddd-dddd"
+                                                placeholder="Ваш телефон (+380XXXXXXXXX)"></asp:TextBox>
 
+                                        </div>
+                                        <div class="form-group">
+                                            <asp:TextBox ID="txbEmail" runat="server" CssClass="form-control form" placeholder="Ваш e-mail"></asp:TextBox>
 
-                                    <div class="form-group">
-                                        <asp:RadioButtonList ID="rblSex" runat="server" RepeatDirection="Horizontal">
-                                            <asp:ListItem Value="0" Selected="true">Мужчина</asp:ListItem>
-                                            <asp:ListItem Value="1">Женщина</asp:ListItem>
-                                        </asp:RadioButtonList>
-                                    </div>
-                                    <div class="form-group">
-                                        <asp:DropDownList ID="BoxListOrders" runat="server" CssClass="ddlstyle">
-                                        </asp:DropDownList>
-                                        Количество дней: 
-                                        <asp:DropDownList ID="Numdays" runat="server" CssClass="ddlstyle">
-                                        </asp:DropDownList>
-                                    </div>
-                                    <div class="form-group">
-                                        <asp:TextBox ID="txbComment" runat="server" CssClass="form-control form" placeholder="Коментарии к заказу. Напишите удобное для вас время доставки с промежутком в 1 час." TextMode="MultiLine" Rows="5"></asp:TextBox>
+                                        </div>
+                                        <div class="form-group">
+                                            <asp:TextBox ID="txbAdr" runat="server" CssClass="form-control form" placeholder="Адрес доставки"></asp:TextBox>
 
+                                        </div>
                                     </div>
 
+                                    <div class="col-md-6 col-sm-6 col-xs-12 right">
+                                        <div class="form-group">
+
+
+                                            <div class="form-group">
+                                                <asp:RadioButtonList ID="rblSex" runat="server" RepeatDirection="Horizontal"
+                                                    AutoPostBack="True" OnSelectedIndexChanged="CalculatePrice">
+                                                    <asp:ListItem Value="0" Selected="true">Мужчина</asp:ListItem>
+                                                    <asp:ListItem Value="1">Женщина</asp:ListItem>
+                                                </asp:RadioButtonList>
+                                            </div>
+                                            <div class="form-group">
+                                                <asp:DropDownList ID="BoxListOrders" runat="server" CssClass="ddlstyle"
+                                                    AutoPostBack="True"
+                                                    OnSelectedIndexChanged="CalculatePrice">
+                                                </asp:DropDownList>
+                                                Количество дней:
+                                      
+                                            <asp:DropDownList ID="Numdays" runat="server" CssClass="ddlstyle"
+                                                AutoPostBack="True"
+                                                OnSelectedIndexChanged="CalculatePrice">
+                                            </asp:DropDownList>
+
+                                            </div>
+                                            <div class="form-group">
+                                                <asp:TextBox ID="txbComment" runat="server" CssClass="form-control form" placeholder="Коментарии к заказу. Напишите удобное для вас время доставки с промежутком в 1 час." TextMode="MultiLine" Rows="5"></asp:TextBox>
+                                                Итого:
+                                        <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
+                                                грн
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-12">
+                                        <!-- Button -->
+
+                                        <asp:Button Text="Заказать " runat="server" OnClick="PlaceOrder" CssClass="form contact-form-button light-form-button oswald light" CausesValidation="true"></asp:Button>
+
+                                    </div>
+
+
+                                    <!-- </form> -->
                                 </div>
                             </div>
-
-                            <div class="col-xs-12">
-                                <!-- Button -->
-                              
-                                <asp:Button Text="Заказать " runat="server" OnClick="PlaceOrder" CssClass="form contact-form-button light-form-button oswald light" CausesValidation ="true"></asp:Button>
-                            </div>
-                            <!-- </form> -->
                         </div>
-                    </div>
-                </div>
-            </section>
+                    </section>
+                </ContentTemplate>
+            </asp:UpdatePanel>
             <!--/ Contact-->
             <!--Footer-->
             <footer id="footer" class="footer">
                 <div class="container text-center">
                     <!-- End newsletter-form -->
+
+                    <div class="footer-col-content">
+                        <ul class="list-contacts-footer">
+                            <li>Address: <a href="#">Glasgow D04 89GR</a>
+                            </li>
+                            <li>Phones:
+                                <a href="callto:380961072510">+38(096)10-725-10</a>
+                                
+                            </li>
+                            <li>E-mail: <a href="#">info@demolink.org</a>
+                            </li>
+                            <li>Hours: 7 days a week from 9:00 am to 7:00 pm
+                            </li>
+                        </ul>
+
+                    </div>
                     <ul class="social-links">
                         <li><a href="https://www.instagram.com/kapusta7day/"><i class="fa fa-instagram fa-fw"></i></a></li>
                         <li><a href="https://facebook.com/kapusta7day/"><i class="fa fa-facebook fa-fw"></i></a></li>
                         <li><a href="https://twitter.com/kapusta7day"><i class="fa fa-twitter fa-fw"></i></a></li>
                     </ul>
-                    2016 Mentor Theme. All rights reserved
-      <div class="credits">
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade.com</a>
-      </div>
+     
                 </div>
             </footer>
             <!--/ Footer-->

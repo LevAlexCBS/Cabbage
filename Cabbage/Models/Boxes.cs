@@ -13,6 +13,7 @@ namespace Cabbage.Models
         FitBox,
         VegeterianBox,
         StrongBox,
-        LunchBox
+        FreshBox
+        
     }
 }
