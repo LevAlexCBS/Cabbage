@@ -4,183 +4,100 @@
   <meal>
     <name><![CDATA[<b>Завтрак 1</b>]]></name>
     <dishout></dishout>
-    <caloricity></caloricity>
-    <proteins></proteins>
-    <fats></fats>
-    <carbohydrates></carbohydrates>
   </meal>
 
   <meal>
     <name>Овсяная каша с апельсином</name>
     <dishout>225 г</dishout>
-    <caloricity>219,7 кКл</caloricity>
-    <proteins>4,6</proteins>
-    <fats>2,5</fats>
-    <carbohydrates>45,2</carbohydrates>
-  </meal>
-
-  <meal>
-    <name>Кекс творожно-тыквенный</name>
-    <dishout>80 г</dishout>
-    <caloricity>128,1 кКл</caloricity>
-    <proteins>12,7</proteins>
-    <fats>3,1</fats>
-    <carbohydrates>9,3</carbohydrates>
   </meal>
   
   <meal>
     <name><![CDATA[<b>Завтрак 2</b>]]></name>
     <dishout></dishout>
-    <caloricity></caloricity>
-    <proteins></proteins>
-    <fats></fats>
-    <carbohydrates></carbohydrates>
-  </meal>
-
-  <meal>
-    <name>Десерт «Битое стекло из йогурта»</name>
-    <dishout>155 г</dishout>
-    <caloricity>265,0 кКл</caloricity>
-    <proteins>8,1</proteins>
-    <fats>1,8</fats>
-    <carbohydrates>14,4</carbohydrates>
   </meal>
 
   <meal>
     <name>Бананово-грушевый смузи</name>
     <dishout>180 г</dishout>
-    <caloricity>100,0 кКл</caloricity>
-    <proteins>2,0</proteins>
-    <fats>0,4</fats>
-    <carbohydrates>24,0</carbohydrates>
   </meal>
 
   <meal>
     <name><![CDATA[<b>Обед</b>]]></name>
     <dishout></dishout>
-    <caloricity></caloricity>
-    <proteins></proteins>
-    <fats></fats>
-    <carbohydrates></carbohydrates>
   </meal>
 
 
   <meal>
     <name>Морковный суп пюре с имбирем</name>
-    <dishout>200 г</dishout>
-    <caloricity>86,3 кКл</caloricity>
-    <proteins>2,5</proteins>
-    <fats>2,5</fats>
-    <carbohydrates>14,5</carbohydrates>
-  </meal>
-
-  <meal>
-    <name>Тост (ржаной хлеб) </name>
-    <dishout>55 г</dishout>
-    <caloricity>105,4 кКл</caloricity>
-    <proteins>4,0</proteins>
-    <fats>0,7</fats>
-    <carbohydrates>21,1</carbohydrates>
+    <dishout>300 г</dishout>
   </meal>
 
   <meal>
     <name>Кальмары тушенные</name>
-    <dishout>200 г</dishout>
-    <caloricity>140,0 кКл</caloricity>
-    <proteins>24,6</proteins>
-    <fats>3,2</fats>
-    <carbohydrates>7,8</carbohydrates>
+    <dishout>150 г</dishout>
   </meal>
 
   <meal>
     <name>Рис с ананасом</name>
     <dishout>150 г</dishout>
-    <caloricity>178,7 кКл</caloricity>
-    <proteins>2,3</proteins>
-    <fats>0,3</fats>
-    <carbohydrates>42,4</carbohydrates>
-  </meal>
-
-  <meal>
-    <name>Салат свекла с сыром</name>
-    <dishout>110 г</dishout>
-    <caloricity>158,4 кКл</caloricity>
-    <proteins>8,9</proteins>
-    <fats>4,7</fats>
-    <carbohydrates>9,1</carbohydrates>
   </meal>
 
   <meal>
     <name><![CDATA[<b>Ужин 1</b>]]></name>
     <dishout></dishout>
-    <caloricity></caloricity>
-    <proteins></proteins>
-    <fats></fats>
-    <carbohydrates></carbohydrates>
   </meal>
 
   <meal>
     <name>Йогурт домашний</name>
     <dishout>125 мл</dishout>
-    <caloricity>105,0 кКл</caloricity>
-    <proteins>2,4</proteins>
-    <fats>2,6</fats>
-    <carbohydrates>0,1</carbohydrates>
   </meal>
 
   <meal>
     <name>Галета овсяная</name>
     <dishout>45 г</dishout>
-    <caloricity>78,0 кКл</caloricity>
-    <proteins>2,5</proteins>
-    <fats>1,7</fats>
-    <carbohydrates>14,8</carbohydrates>
   </meal>
   
   <meal>
     <name><![CDATA[<b>Ужин 2</b>]]></name>
     <dishout></dishout>
-    <caloricity></caloricity>
-    <proteins></proteins>
-    <fats></fats>
-    <carbohydrates></carbohydrates>
   </meal>
 
   <meal>
     <name>Треска печеная с овощами</name>
     <dishout>250 г</dishout>
-    <caloricity>122,0 кКл</caloricity>
-    <proteins>19,0</proteins>
-    <fats>1,1</fats>
-    <carbohydrates>23,0</carbohydrates>
   </meal>
 
   <meal>
-    <name>Гречка  с грибами</name>
+    <name>Белая гречневая каша</name>
     <dishout>150 г</dishout>
-    <caloricity>158,0 кКл</caloricity>
-    <proteins>5,7</proteins>
-    <fats>5,4</fats>
-    <carbohydrates>21,9</carbohydrates>
   </meal>
 
   <meal>
     <name>Овощной салат с заправкой из авокадо</name>
-    <dishout>150 г</dishout>
-    <caloricity>135,2 кКл</caloricity>
-    <proteins>6,2</proteins>
-    <fats>17,2</fats>
-    <carbohydrates>12,8</carbohydrates>
   </meal>
   
   <meal>
     <name><![CDATA[<b>Всего</b>]]></name>
-    <dishout>2105 г</dishout>
-    <caloricity>2000,8 кКл</caloricity>
-    <proteins>109,2</proteins>
-    <fats>47,7</fats>
-    <carbohydrates>261,6</carbohydrates>
+    <dishout>1725 г</dishout>
   </meal>
   
-  
+  <meal>
+    <name><![CDATA[<b>Калорийность</b>]]></name>
+    <dishout>2000,8 кКал</dishout>
+  </meal>
+
+  <meal>
+    <name><![CDATA[<b>Белки</b>]]></name>
+    <dishout>109,2</dishout>
+  </meal>
+
+  <meal>
+    <name><![CDATA[<b>Жиры</b>]]></name>
+    <dishout>57,7</dishout>
+  </meal>
+
+  <meal>
+    <name><![CDATA[<b>Углеводы</b>]]></name>
+    <dishout>201,6</dishout>
+  </meal>
 </vegeterianbox> 

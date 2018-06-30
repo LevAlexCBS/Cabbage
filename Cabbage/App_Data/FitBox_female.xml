@@ -4,150 +4,96 @@
   <meal>
     <name><![CDATA[<b>Завтрак 1</b>]]></name>
     <dishout></dishout>
-    <caloricity></caloricity>
-    <proteins></proteins>
-    <fats></fats>
-    <carbohydrates></carbohydrates>
   </meal>
 
   <meal>
     <name>Белковый омлет с шампиньонами</name>
-    <dishout>130 г</dishout>
-    <caloricity>181,6 кКл</caloricity>
-    <proteins>11,3</proteins>
-    <fats>15,1</fats>
-    <carbohydrates>1,9</carbohydrates>
-  </meal>
-
-  <meal>
-    <name>Яблоко печеное с творогом</name>
-    <dishout>100/25 г</dishout>
-    <caloricity>153,5 кКл</caloricity>
-    <proteins>4,8</proteins>
-    <fats>0,9</fats>
-    <carbohydrates>25,9</carbohydrates>
+    <dishout>200 г</dishout>
   </meal>
 
   <meal>
     <name><![CDATA[<b>Завтрак 2</b>]]></name>
     <dishout></dishout>
-    <caloricity></caloricity>
-    <proteins></proteins>
-    <fats></fats>
-    <carbohydrates></carbohydrates>
   </meal>
 
   <meal>
     <name>Тыква печеная с фруктами</name>
     <dishout>150 г</dishout>
-    <caloricity>115 кКл</caloricity>
-    <proteins>1,2</proteins>
-    <fats>1,5</fats>
-    <carbohydrates>18,5</carbohydrates>
   </meal>
 
 
   <meal>
     <name><![CDATA[<b>Обед</b>]]></name>
     <dishout></dishout>
-    <caloricity></caloricity>
-    <proteins></proteins>
-    <fats></fats>
-    <carbohydrates></carbohydrates>
   </meal>
 
 
   <meal>
     <name>Суп с красной фасолью</name>
-    <dishout>200 г</dishout>
-    <caloricity>155,5 кКл</caloricity>
-    <proteins>10,6</proteins>
-    <fats>4,5</fats>
-    <carbohydrates>27,6</carbohydrates>
+    <dishout>350 г</dishout>
   </meal>
 
   <meal>
     <name>Грудка куриная  на гриле</name>
     <dishout>135 г</dishout>
-    <caloricity>171,2 кКл</caloricity>
-    <proteins>26,7</proteins>
-    <fats>5,1</fats>
-    <carbohydrates>5,1</carbohydrates>
   </meal>
 
   <meal>
-    <name>Салат овощной с моцарелой</name>
-    <dishout>200 г</dishout>
-    <caloricity>146,5 кКл</caloricity>
-    <proteins>8,1</proteins>
-    <fats>8,3</fats>
-    <carbohydrates>7,6</carbohydrates>
+    <name>Микс салат с грушей и сыром Камамбер</name>
+    <dishout>180 г</dishout>
   </meal>
 
 
   <meal>
     <name><![CDATA[<b>Ужин 1</b>]]></name>
     <dishout></dishout>
-    <caloricity></caloricity>
-    <proteins></proteins>
-    <fats></fats>
-    <carbohydrates></carbohydrates>
   </meal>
 
   <meal>
     <name>Йогурт домашний</name>
-    <dishout>125 мл</dishout>
-    <caloricity>105 кКл</caloricity>
-    <proteins>2,4</proteins>
-    <fats>2,6</fats>
-    <carbohydrates>0,1</carbohydrates>
+    <dishout>180 г</dishout>
   </meal>
 
-  <meal>
-    <name>Мандарин</name>
-    <dishout>60 г</dishout>
-    <caloricity>21,0 кКл</caloricity>
-    <proteins>0,5</proteins>
-    <fats>-</fats>
-    <carbohydrates>4,9</carbohydrates>
-  </meal>
 
   <meal>
     <name><![CDATA[<b>Ужин 2</b>]]></name>
     <dishout></dishout>
-    <caloricity></caloricity>
-    <proteins></proteins>
-    <fats></fats>
-    <carbohydrates></carbohydrates>
   </meal>
 
   <meal>
     <name>Лосось на пару</name>
-    <dishout>150 г</dishout>
-    <caloricity>271,2 кКл</caloricity>
-    <proteins>25,5</proteins>
-    <fats>8,5</fats>
-    <carbohydrates>6,0</carbohydrates>
+    <dishout>100 г</dishout>
   </meal>
 
   <meal>
     <name>Овощи гриль</name>
     <dishout>180 г</dishout>
-    <caloricity>130 кКл</caloricity>
-    <proteins>4,1</proteins>
-    <fats>3,2</fats>
-    <carbohydrates>18,2</carbohydrates>
   </meal>
 
 
   <meal>
     <name><![CDATA[<b>Всего</b>]]></name>
-    <dishout>1455 г</dishout>
-    <caloricity>1450,5 кКл</caloricity>
-    <proteins>95,2</proteins>
-    <fats>49,1</fats>
-    <carbohydrates>115,8</carbohydrates>
+    <dishout>1475 г</dishout>
   </meal>
 
+  <meal>
+    <name><![CDATA[<b>Калорийность</b>]]></name>
+    <dishout>1450,5 кКал</dishout>
+  </meal>
+
+  <meal>
+    <name><![CDATA[<b>Белки</b>]]></name>
+    <dishout>95,2</dishout>
+  </meal>
+
+  <meal>
+    <name><![CDATA[<b>Жиры</b>]]></name>
+    <dishout>49,1</dishout>
+  </meal>
+
+  <meal>
+    <name><![CDATA[<b>Углеводы</b>]]></name>
+    <dishout>132,8</dishout>
+  </meal>
 
 </fitbox>

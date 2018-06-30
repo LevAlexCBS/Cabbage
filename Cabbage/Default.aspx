@@ -263,23 +263,7 @@
                                         <asp:BoundField DataField="dishout" HeaderText="Выход блюда, г" ItemStyle-Width="100px">
                                             <HeaderStyle CssClass="text-center" />
                                             <ItemStyle CssClass="text-center" Width="100px" />
-                                        </asp:BoundField>
-                                        <asp:BoundField DataField="caloricity" HeaderText="Калорийность" ItemStyle-Width="115px">
-                                            <HeaderStyle CssClass="text-center" />
-                                            <ItemStyle CssClass="text-center" Width="115px" />
-                                        </asp:BoundField>
-                                        <asp:BoundField DataField="proteins" HeaderText="Белки" ItemStyle-Width="75px">
-                                            <HeaderStyle CssClass="text-center" />
-                                            <ItemStyle CssClass="text-center" Width="75px" />
-                                        </asp:BoundField>
-                                        <asp:BoundField DataField="fats" HeaderText="Жиры" ItemStyle-Width="75px" ItemStyle-CssClass="text-center" ItemStyle-HorizontalAlign="Center">
-                                            <HeaderStyle CssClass="text-center" />
-                                            <ItemStyle CssClass="text-center" HorizontalAlign="Center" Width="75px" />
-                                        </asp:BoundField>
-                                        <asp:BoundField DataField="carbohydrates" HeaderText="Углеводы" ItemStyle-Width="80px" HeaderStyle-HorizontalAlign="Center">
-                                            <HeaderStyle CssClass="text-center" HorizontalAlign="Center" />
-                                            <ItemStyle CssClass="text-center" Width="80px" />
-                                        </asp:BoundField>
+                                        </asp:BoundField> 
                                     </Columns>
                                 </asp:GridView>
 

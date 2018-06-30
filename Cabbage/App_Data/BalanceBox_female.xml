@@ -2,167 +2,100 @@
 <box>
 
   <meal>
-    <Name><![CDATA[<b>Завтрак 1</b>]]></Name>
-    <Dishout></Dishout>
-    <Caloricity></Caloricity>
-    <Proteins></Proteins>
-    <Fats></Fats>
-    <Carbohydrates></Carbohydrates>
+    <name><![CDATA[<b>Завтрак 1</b>]]></name>
+    <dishout></dishout>
   </meal>
 
   <meal>
-    <Name>Сырники с фруктовым пюре и финиками</Name>
-    <Dishout>190 г</Dishout>
-    <Caloricity>325,9 кКл</Caloricity>
-    <Proteins>14,4</Proteins>
-    <Fats>5,1</Fats>
-    <Carbohydrates>45,6</Carbohydrates>
+    <name>Сырники с финиками</name>
+    <dishout>210 г</dishout>
   </meal>
 
   <meal>
-    <Name>Желе апельсиновое</Name>
-    <Dishout>150 г</Dishout>
-    <Caloricity>132,0 кКл</Caloricity>
-    <Proteins>4,2</Proteins>
-    <Fats>-</Fats>
-    <Carbohydrates>30,5</Carbohydrates>
+    <name><![CDATA[<b>Завтрак 2</b>]]></name>
+    <dishout></dishout>
   </meal>
 
   <meal>
-    <Name><![CDATA[<b>Завтрак 2</b>]]></Name>
-    <Dishout></Dishout>
-    <Caloricity></Caloricity>
-    <Proteins></Proteins>
-    <Fats></Fats>
-    <Carbohydrates></Carbohydrates>
+    <name>Смузи</name>
+    <dishout>150 г</dishout>
   </meal>
 
   <meal>
-    <Name>Зеленый смузи</Name>
-    <Dishout>170 г</Dishout>
-    <Caloricity>58,2 кКл</Caloricity>
-    <Proteins>1,0</Proteins>
-    <Fats>0,6</Fats>
-    <Carbohydrates>12,0</Carbohydrates>
-  </meal>
-
-  <meal>
-    <Name>Хлебец с гречневой муки с печеночным паштетом (кролик) и грецким орехом</Name>
-    <Dishout>50 г</Dishout>
-    <Caloricity>147,8 кКл</Caloricity>
-    <Proteins>4,1</Proteins>
-    <Fats>6,8</Fats>
-    <Carbohydrates>9,2</Carbohydrates>
-  </meal>
-
-  <meal>
-    <Name><![CDATA[<b>Обед</b>]]></Name>
-    <Dishout></Dishout>
-    <Caloricity></Caloricity>
-    <Proteins></Proteins>
-    <Fats></Fats>
-    <Carbohydrates></Carbohydrates>
+    <name><![CDATA[<b>Обед</b>]]></name>
+    <dishout></dishout>
   </meal>
 
 
   <meal>
-    <Name>Тыквенный суп пюре</Name>
-    <Dishout>200 г</Dishout>
-    <Caloricity>77,7 кКл</Caloricity>
-    <Proteins>2,5</Proteins>
-    <Fats>2,5</Fats>
-    <Carbohydrates>15,8</Carbohydrates>
+    <name>Тыквенный суп пюре</name>
+    <dishout>350 г</dishout>
   </meal>
 
   <meal>
-    <Name>Кролик запеченный  в травах с гранатовым соусом</Name>
-    <Dishout>150 г</Dishout>
-    <Caloricity>239,3 кКл</Caloricity>
-    <Proteins>21,4</Proteins>
-    <Fats>14,4</Fats>
-    <Carbohydrates>9,6</Carbohydrates>
+    <name>Кролик запеченный  в травах с гранатовым соусом</name>
+    <dishout>150 г</dishout>
   </meal>
 
   <meal>
-    <Name>Марокканский салат</Name>
-    <Dishout>180 г</Dishout>
-    <Caloricity>146,0 кКл</Caloricity>
-    <Proteins>3,6</Proteins>
-    <Fats>8,6</Fats>
-    <Carbohydrates>14,6</Carbohydrates>
+    <name>Марокканский салат</name>
+    <dishout>180 г</dishout>
   </meal>
 
   <meal>
-    <Name><![CDATA[<b>Ужин 1</b>]]></Name>
-    <Dishout></Dishout>
-    <Caloricity></Caloricity>
-    <Proteins></Proteins>
-    <Fats></Fats>
-    <Carbohydrates></Carbohydrates>
+    <name><![CDATA[<b>Ужин 1</b>]]></name>
+    <dishout></dishout>
   </meal>
 
   <meal>
-    <Name>Йогурт домашний</Name>
-    <Dishout>125 мл</Dishout>
-    <Caloricity>105,0 кКл</Caloricity>
-    <Proteins>2,4</Proteins>
-    <Fats>2,6</Fats>
-    <Carbohydrates>0,1</Carbohydrates>
+    <name>Йогурт домашний</name>
+    <dishout>180 мл</dishout>
   </meal>
 
   <meal>
-    <Name>Галета овсяная</Name>
-    <Dishout>45 г</Dishout>
-    <Caloricity>78,0 кКл</Caloricity>
-    <Proteins>2,5</Proteins>
-    <Fats>1,7</Fats>
-    <Carbohydrates>14,8</Carbohydrates>
+    <name>Галета овсяная</name>
+    <dishout>45 г</dishout>
   </meal>
 
   <meal>
-    <Name><![CDATA[<b>Ужин 2</b>]]></Name>
-    <Dishout></Dishout>
-    <Caloricity></Caloricity>
-    <Proteins></Proteins>
-    <Fats></Fats>
-    <Carbohydrates></Carbohydrates>
+    <name><![CDATA[<b>Ужин 2</b>]]></name>
+    <dishout></dishout>
   </meal>
 
   <meal>
-    <Name>Морской окунь на пару с кисло-сладким соусом</Name>
-    <Dishout>150 г</Dishout>
-    <Caloricity>258,0 кКл</Caloricity>
-    <Proteins>39,9</Proteins>
-    <Fats>5,1</Fats>
-    <Carbohydrates>4,6</Carbohydrates>
+    <name>Морской окунь на пару с кисло-сладким соусом</name>
+    <dishout>130 г</dishout>
   </meal>
 
   <meal>
-    <Name>Рис бурый отварной</Name>
-    <Dishout>150 г</Dishout>
-    <Caloricity>106,7 кКл</Caloricity>
-    <Proteins>2,6</Proteins>
-    <Fats>0,4</Fats>
-    <Carbohydrates>23,4</Carbohydrates>
+    <name>Рататуй</name>
+    <dishout>180 г</dishout>
   </meal>
 
-  <meal>
-    <Name>Рататуй</Name>
-    <Dishout>180 г</Dishout>
-    <Caloricity>76,6 кКл</Caloricity>
-    <Proteins>1,8</Proteins>
-    <Fats>2,4</Fats>
-    <Carbohydrates>10,6</Carbohydrates>
-  </meal>
   
   <meal>
-    <Name><![CDATA[<b>Всего</b>]]></Name>
-    <Dishout>1740 г</Dishout>
-    <Caloricity>1751,2 кКл</Caloricity>
-    <Proteins>100,4</Proteins>
-    <Fats>50,1</Fats>
-    <Carbohydrates>190,8</Carbohydrates>
+    <name><![CDATA[<b>Всего</b>]]></name>
+    <dishout>1575 г</dishout>
   </meal>
-  
-  
+
+  <meal>
+    <name><![CDATA[<b>Калорийность</b>]]></name>
+    <dishout>1751,2 г</dishout>
+  </meal>
+
+  <meal>
+    <name><![CDATA[<b>Белки</b>]]></name>
+    <dishout>100,4</dishout>
+  </meal>
+
+  <meal>
+    <name><![CDATA[<b>Жиры</b>]]></name>
+    <dishout>50,1</dishout>
+  </meal>
+
+  <meal>
+    <name><![CDATA[<b>Углеводы</b>]]></name>
+    <dishout>190,8</dishout>
+  </meal>
+
 </box> 

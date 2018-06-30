@@ -4,146 +4,101 @@
   <meal>
     <name><![CDATA[<b>Завтрак 1</b>]]></name>
     <dishout></dishout>
-    <caloricity></caloricity>
-    <proteins></proteins>
-    <fats></fats>
-    <carbohydrates></carbohydrates>
   </meal>
 
   <meal>
     <name>Овсяная каша с малиной</name>
     <dishout>225/25 г</dishout>
-    <caloricity>182 кКл</caloricity>
-    <proteins>6,2</proteins>
-    <fats>3,1</fats>
-    <carbohydrates>37,5</carbohydrates>
   </meal>
 
   <meal>
     <name>Брускетта с обезжиренным сыром</name>
     <dishout>50 г</dishout>
-    <caloricity>98 кКл</caloricity>
-    <proteins>2,6</proteins>
-    <fats>5,5</fats>
-    <carbohydrates>5,6</carbohydrates>
   </meal>
 
   <meal>
     <name><![CDATA[<b>Завтрак 2</b>]]></name>
     <dishout></dishout>
-    <caloricity></caloricity>
-    <proteins></proteins>
-    <fats></fats>
-    <carbohydrates></carbohydrates>
   </meal>
 
   <meal>
     <name>Морковно – сельдерейные  палочки с хумусом</name>
     <dishout>50/50/15 г</dishout>
-    <caloricity>39,5 кКл</caloricity>
-    <proteins>2,1</proteins>
-    <fats>0,1</fats>
-    <carbohydrates>6,1</carbohydrates>
   </meal>
 
   <meal>
     <name><![CDATA[<b>Обед</b>]]></name>
     <dishout></dishout>
-    <caloricity></caloricity>
-    <proteins></proteins>
-    <fats></fats>
-    <carbohydrates></carbohydrates>
   </meal>
 
 
   <meal>
     <name>Грибной суп с луком - порей </name>
     <dishout>250 мл</dishout>
-    <caloricity>135 кКл</caloricity>
-    <proteins>4,8</proteins>
-    <fats>6,0</fats>
-    <carbohydrates>14,3</carbohydrates>
   </meal>
 
   <meal>
     <name>Филе индейки запеченное с яблоком в клюквенном соусе</name>
     <dishout>125/10г</dishout>
-    <caloricity>237,5 кКЛ</caloricity>
-    <proteins>25,3</proteins>
-    <fats>10,4</fats>
-    <carbohydrates>2,0</carbohydrates>
   </meal>
 
   <meal>
     <name>Салат «Ромэн» с перепелиными яйцами</name>
     <dishout>200г</dishout>
-    <caloricity>99,5 кКл</caloricity>
-    <proteins>4,7</proteins>
-    <fats>3,1</fats>
-    <carbohydrates>6,1</carbohydrates>
   </meal>
 
   <meal>
     <name><![CDATA[<b>Ужин 1</b>]]></name>
     <dishout></dishout>
-    <caloricity></caloricity>
-    <proteins></proteins>
-    <fats></fats>
-    <carbohydrates></carbohydrates>
   </meal>
 
   <meal>
     <name>Йогурт домашний</name>
     <dishout>150 мл</dishout>
-    <caloricity>105 кКл</caloricity>
-    <proteins>2,4</proteins>
-    <fats>2,6</fats>
-    <carbohydrates>0,1</carbohydrates>
   </meal>
 
   <meal>
     <name>Киви</name>
     <dishout>75 г</dishout>
-    <caloricity>36,5 кКл</caloricity>
-    <proteins>0,8</proteins>
-    <fats>0,4</fats>
-    <carbohydrates>8,5</carbohydrates>
   </meal>
 
   <meal>
     <name><![CDATA[<b>Ужин 2</b>]]></name>
     <dishout></dishout>
-    <caloricity></caloricity>
-    <proteins></proteins>
-    <fats></fats>
-    <carbohydrates></carbohydrates>
   </meal>
 
   <meal>
     <name>Скумбрия на гриле</name>
     <dishout>150г</dishout>
-    <caloricity>300,5 кКл</caloricity>
-    <proteins>29,4</proteins>
-    <fats>22,0</fats>
-    <carbohydrates>-</carbohydrates>
   </meal>
 
   <meal>
     <name>Легкий салат с грейпфрутом</name>
     <dishout>200г</dishout>
-    <caloricity>70 кКл</caloricity>
-    <proteins>0,5</proteins>
-    <fats>2,2</fats>
-    <carbohydrates>7,2</carbohydrates>
   </meal>
   
   <meal>
     <name><![CDATA[<b>Всего</b>]]></name>
     <dishout>1590 г</dishout>
-    <caloricity>1303,5 кКл</caloricity>
-    <proteins>78,8</proteins>
-    <fats>55,4</fats>
-    <carbohydrates>87,4</carbohydrates>
+  </meal>
+  <meal>
+    <name><![CDATA[<b>Калорийность</b>]]></name>
+    <dishout>1751,2 г</dishout>
+  </meal>
+
+  <meal>
+    <name><![CDATA[<b>Белки</b>]]></name>
+    <dishout>100,4</dishout>
+  </meal>
+
+  <meal>
+    <name><![CDATA[<b>Жиры</b>]]></name>
+    <dishout>50,1</dishout>
+  </meal>
+
+  <meal>
+    <name><![CDATA[<b>Углеводы</b>]]></name>
+    <dishout>190,8</dishout>
   </meal>
 </slimbox>
 

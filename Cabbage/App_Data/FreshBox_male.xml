@@ -4,156 +4,94 @@
   <meal>
     <name><![CDATA[<b>Завтрак 1</b>]]></name>
     <dishout></dishout>
-    <caloricity></caloricity>
-    <proteins></proteins>
-    <fats></fats>
-    <carbohydrates></carbohydrates>
   </meal>
 
   <meal>
     <name>Блины на воде с джемом</name>
     <dishout>150 г</dishout>
-    <caloricity>173,0 кКл</caloricity>
-    <proteins>3,8</proteins>
-    <fats>2,5</fats>
-    <carbohydrates>6,5</carbohydrates>
   </meal>
 
-  <meal>
-    <name>Салат «Завтрак детства»</name>
-    <dishout>130 г</dishout>
-    <caloricity>180,0 кКл</caloricity>
-    <proteins>3,2</proteins>
-    <fats>8,6</fats>
-    <carbohydrates>23,7</carbohydrates>
-  </meal>
   
   <meal>
     <name><![CDATA[<b>Завтрак 2</b>]]></name>
     <dishout></dishout>
-    <caloricity></caloricity>
-    <proteins></proteins>
-    <fats></fats>
-    <carbohydrates></carbohydrates>
   </meal>
 
   <meal>
     <name>Бананово-грушевый смузи</name>
     <dishout>180 г</dishout>
-    <caloricity>100,0 кКл</caloricity>
-    <proteins>2,0</proteins>
-    <fats>0,4</fats>
-    <carbohydrates>24,0</carbohydrates>
   </meal>
 
   <meal>
     <name><![CDATA[<b>Обед</b>]]></name>
     <dishout></dishout>
-    <caloricity></caloricity>
-    <proteins></proteins>
-    <fats></fats>
-    <carbohydrates></carbohydrates>
   </meal>
 
 
   <meal>
     <name>Суп овощной с белыми грибами</name>
     <dishout>200 г</dishout>
-    <caloricity>274,6 кКл</caloricity>
-    <proteins>19,2</proteins>
-    <fats>2,6</fats>
-    <carbohydrates>38,4</carbohydrates>
   </meal>
 
   <meal>
     <name>Спагетти больньезе вегетарианское</name>
     <dishout>170 г</dishout>
-    <caloricity>226,8 кКл</caloricity>
-    <proteins>8,9</proteins>
-    <fats>4,3</fats>
-    <carbohydrates>40,1</carbohydrates>
   </meal>
 
   <meal>
     <name>Салат из брокколи и помидоров</name>
     <dishout>180 г</dishout>
-    <caloricity>98,0 кКл</caloricity>
-    <proteins>3,8</proteins>
-    <fats>6,4</fats>
-    <carbohydrates>9,0</carbohydrates>
   </meal>
   
   <meal>
     <name><![CDATA[<b>Ужин 1</b>]]></name>
     <dishout></dishout>
-    <caloricity></caloricity>
-    <proteins></proteins>
-    <fats></fats>
-    <carbohydrates></carbohydrates>
   </meal>
 
   <meal>
     <name>Морковно–овсяный кекс</name>
-    <dishout>60 мл</dishout>
-    <caloricity>230,8 кКл</caloricity>
-    <proteins>5,3</proteins>
-    <fats>10,3</fats>
-    <carbohydrates>33,0</carbohydrates>
-  </meal>
-
-  <meal>
-    <name>Сухофрукты</name>
-    <dishout>80 г</dishout>
-    <caloricity>172,0 кКл</caloricity>
-    <proteins>4,2</proteins>
-    <fats>0,2</fats>
-    <carbohydrates>40,8</carbohydrates>
+    <dishout>60 г</dishout>
   </meal>
   
   <meal>
     <name><![CDATA[<b>Ужин 2</b>]]></name>
     <dishout></dishout>
-    <caloricity></caloricity>
-    <proteins></proteins>
-    <fats></fats>
-    <carbohydrates></carbohydrates>
   </meal>
 
   <meal>
     <name>Тыквенный карри с нутом и цукини</name>
     <dishout>200 г</dishout>
-    <caloricity>180,0 кКл</caloricity>
-    <proteins>6,9</proteins>
-    <fats>4,0</fats>
-    <carbohydrates>28,8</carbohydrates>
   </meal>
 
   <meal>
     <name>Салат из морской капусты с зеленым горошком </name>
     <dishout>180 г</dishout>
-    <caloricity>115,2 кКл</caloricity>
-    <proteins>8,3</proteins>
-    <fats>8,7</fats>
-    <carbohydrates>-</carbohydrates>
   </meal>
 
-  <meal>
-    <name>Фокачча с тимьяном и розмарином</name>
-    <dishout>100 г</dishout>
-    <caloricity>255,2 кКл</caloricity>
-    <proteins>6,4</proteins>
-    <fats>6,2</fats>
-    <carbohydrates>45,2</carbohydrates>
-  </meal>
   
   <meal>
     <name><![CDATA[<b>Всего</b>]]></name>
-    <dishout>1630 г</dishout>
-    <caloricity>2005,6 кКл</caloricity>
-    <proteins>71,0</proteins>
-    <fats>54,2</fats>
-    <carbohydrates>282,8</carbohydrates>
+    <dishout>1320 г</dishout>
   </meal>
-  
+
+  <meal>
+    <name><![CDATA[<b>Калорийность</b>]]></name>
+    <dishout>2005,6 кКал</dishout>
+  </meal>
+
+  <meal>
+    <name><![CDATA[<b>Белки</b>]]></name>
+    <dishout>83,5</dishout>
+  </meal>
+
+  <meal>
+    <name><![CDATA[<b>Жиры</b>]]></name>
+    <dishout>54,2</dishout>
+  </meal>
+
+  <meal>
+    <name><![CDATA[<b>Углеводы</b>]]></name>
+    <dishout>190,8</dishout>
+  </meal>
   
 </freshbox> 

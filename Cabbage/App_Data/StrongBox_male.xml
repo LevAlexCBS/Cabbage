@@ -4,210 +4,121 @@
   <meal>
     <name><![CDATA[<b>Завтрак 1</b>]]></name>
     <dishout></dishout>
-    <caloricity></caloricity>
-    <proteins></proteins>
-    <fats></fats>
-    <carbohydrates></carbohydrates>
   </meal>
 
   <meal>
-    <name>Омлет с грибами</name>
-    <dishout>200 г</dishout>
-    <caloricity>253,2 кКл</caloricity>
-    <proteins>18,0</proteins>
-    <fats>20,1</fats>
-    <carbohydrates>9,5</carbohydrates>
+    <name>Омлет с овощами</name>
+    <dishout>160 г</dishout>
   </meal>
 
   <meal>
-    <name>Куриный рулет</name>
-    <dishout>110 г</dishout>
-    <caloricity>150,7 кКл</caloricity>
-    <proteins>24,0</proteins>
-    <fats>5,8</fats>
-    <carbohydrates>0,9</carbohydrates>
+    <name>Кебаб рулет</name>
+    <dishout>100 г</dishout>
   </meal>
 
   <meal>
     <name>Овощная нарезка</name>
     <dishout>120 г</dishout>
-    <caloricity>22,8 кКл</caloricity>
-    <proteins>0,8</proteins>
-    <fats>0,1</fats>
-    <carbohydrates>4,3</carbohydrates>
   </meal>
   
   <meal>
     <name>Тост (ржаной хлеб)</name>
     <dishout>30 г</dishout>
-    <caloricity>55,5 кКл</caloricity>
-    <proteins>2,2</proteins>
-    <fats>0,4</fats>
-    <carbohydrates>11,4</carbohydrates>
   </meal>
   
   <meal>
     <name><![CDATA[<b>Завтрак 2</b>]]></name>
     <dishout></dishout>
-    <caloricity></caloricity>
-    <proteins></proteins>
-    <fats></fats>
-    <carbohydrates></carbohydrates>
   </meal>
 
   <meal>
-    <name>Творожная запеканка с тыквой и изюмом</name>
-    <dishout>180 г</dishout>
-    <caloricity>312,0 кКл</caloricity>
-    <proteins>25,4</proteins>
-    <fats>6,3</fats>
-    <carbohydrates>21,2</carbohydrates>
-  </meal>
-
-  <meal>
-    <name>Яблоко печеное</name>
-    <dishout>130 г</dishout>
-    <caloricity>75,8 кКл</caloricity>
-    <proteins>0,5</proteins>
-    <fats>0,5</fats>
-    <carbohydrates>16,5</carbohydrates>
+    <name>Каша овсяная с Чиа и ягодами</name>
+    <dishout>250 г</dishout>
   </meal>
 
   <meal>
     <name><![CDATA[<b>Обед</b>]]></name>
     <dishout></dishout>
-    <caloricity></caloricity>
-    <proteins></proteins>
-    <fats></fats>
-    <carbohydrates></carbohydrates>
   </meal>
 
 
   <meal>
-    <name>Куринный бульон с лапшой с твердых сортов пшеницы</name>
-    <dishout>322 г</dishout>
-    <caloricity>146,1 кКл</caloricity>
-    <proteins>12,9</proteins>
-    <fats>2,9</fats>
-    <carbohydrates>17,7</carbohydrates>
+    <name>Сливочный крем-суп с белыми грибами</name>
+    <dishout>350 г</dishout>
   </meal>
 
   <meal>
-    <name>Печеный картофель с розмарином</name>
+    <name>Картофель запеченый</name>
     <dishout>150 г</dishout>
-    <caloricity>157,5 кКл</caloricity>
-    <proteins>3,0</proteins>
-    <fats>0,6</fats>
-    <carbohydrates>24,2</carbohydrates>
   </meal>
 
   <meal>
     <name>Говядина с клюквой</name>
-    <dishout>194 г</dishout>
-    <caloricity>419,5 кКл</caloricity>
-    <proteins>31,7</proteins>
-    <fats>32,0</fats>
-    <carbohydrates>1,3</carbohydrates>
+    <dishout>165 г</dishout>
   </meal>
 
   <meal>
     <name>Греческий салат</name>
-    <dishout>200 г</dishout>
-    <caloricity>178,0 кКл</caloricity>
-    <proteins>5,6</proteins>
-    <fats>13,0</fats>
-    <carbohydrates>8,0</carbohydrates>
+    <dishout>180 г</dishout>
   </meal>
   
   <meal>
     <name><![CDATA[<b>Ужин 1</b>]]></name>
     <dishout></dishout>
-    <caloricity></caloricity>
-    <proteins></proteins>
-    <fats></fats>
-    <carbohydrates></carbohydrates>
   </meal>
 
   <meal>
-    <name>Йогурт домашний</name>
-    <dishout>150 мл</dishout>
-    <caloricity>105,0 кКл</caloricity>
-    <proteins>2,4</proteins>
-    <fats>2,6</fats>
-    <carbohydrates>0,1</carbohydrates>
+    <name>Ряжанка домашняя</name>
+    <dishout>200 мл</dishout>
   </meal>
 
   <meal>
     <name>Галета овсяная</name>
     <dishout>45 г</dishout>
-    <caloricity>78,0 кКл</caloricity>
-    <proteins>2,5</proteins>
-    <fats>1,7</fats>
-    <carbohydrates>14,8</carbohydrates>
-  </meal>
-  
-    <meal>
-    <name>Банан</name>
-    <dishout>160 г</dishout>
-    <caloricity>152,0 кКл</caloricity>
-    <proteins>2,4</proteins>
-    <fats>0,3</fats>
-    <carbohydrates>34,9</carbohydrates>
-  </meal>
-
-  <meal>
-    <name>Микс орехов и сухофруктов</name>
-    <dishout>90 г</dishout>
-    <caloricity>440,3 кКл</caloricity>
-    <proteins>9,9</proteins>
-    <fats>25,1</fats>
-    <carbohydrates>41,9</carbohydrates>
   </meal>
 
   <meal>
     <name><![CDATA[<b>Ужин 2</b>]]></name>
     <dishout></dishout>
-    <caloricity></caloricity>
-    <proteins></proteins>
-    <fats></fats>
-    <carbohydrates></carbohydrates>
   </meal>
 
   <meal>
     <name>Рыба запеченная под сыром</name>
-    <dishout>200 г</dishout>
-    <caloricity>203,3 кКл</caloricity>
-    <proteins>32,2</proteins>
-    <fats>7,0</fats>
-    <carbohydrates>-</carbohydrates>
+    <dishout>170 г</dishout>
   </meal>
 
   <meal>
-    <name>Рис бурый отварной</name>
-    <dishout>150 г</dishout>
-    <caloricity>106,7 кКл</caloricity>
-    <proteins>2,6</proteins>
-    <fats>0,4</fats>
-    <carbohydrates>23,4</carbohydrates>
+    <name>Булгур отварной</name>
+    <dishout>130 г</dishout>
   </meal>
 
   <meal>
     <name>Овощи гриль</name>
-    <dishout>200 г</dishout>
-    <caloricity>144,5 кКл</caloricity>
-    <proteins>3,2</proteins>
-    <fats>6,8</fats>
-    <carbohydrates>19,2</carbohydrates>
+    <dishout>180 г</dishout>
   </meal>
   
   <meal>
     <name><![CDATA[<b>Всего</b>]]></name>
-    <dishout>2631 г</dishout>
-    <caloricity>3000,9 кКл</caloricity>
-    <proteins>179,3</proteins>
-    <fats>125,6</fats>
-    <carbohydrates>241,2</carbohydrates>
+    <dishout>2230 г</dishout>
   </meal>
-  
-  
+
+  <meal>
+    <name><![CDATA[<b>Калорийность</b>]]></name>
+    <dishout>3000,1 ккал</dishout>
+  </meal>
+
+  <meal>
+    <name><![CDATA[<b>Белки</b>]]></name>
+    <dishout>180,7</dishout>
+  </meal>
+
+  <meal>
+    <name><![CDATA[<b>Жиры</b>]]></name>
+    <dishout>102,4</dishout>
+  </meal>
+
+  <meal>
+    <name><![CDATA[<b>Углеводы</b>]]></name>
+    <dishout>246,3</dishout>
+  </meal>
 </strongbox> 
