@@ -699,8 +699,8 @@
                                 <div class="header-section text-center">
                                     <h2>Форма заказа</h2>
                                     <p>
-                                        Заказы принимаются с 7<sup>00</sup> до 15<sup>00</sup> с доставкой на следующий день. Доставка боксов с 6<sup>00</sup>.
-                                Доставка ланчей с 12<sup>00</sup> до 15<sup>00</sup>.
+                                        Заказы принимаются с 8<sup>00</sup> до 15<sup>00</sup> с доставкой на следующий день. Доставка боксов с 6<sup>00</sup>.
+                                Доставка ланчей с 10<sup>00</sup> до 15<sup>00</sup>.
                                     </p>
                                     <hr class="bottom-line" />
                                 </div>
@@ -825,8 +825,6 @@
 
                     <div class="footer-col-content">
                         <ul class="list-contacts-footer">
-                            <li>Address: <a href="#">Glasgow D04 89GR</a>
-                            </li>
                             <li>Phones:
                                 <a href="callto:380961072510">+38(096)10-725-10</a>
                                 
