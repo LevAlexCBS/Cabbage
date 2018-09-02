@@ -99,8 +99,9 @@ namespace Cabbage.Models
         }
         public async Task SendSms()
         {
+            DB_A2CE2A_OrdersEntities context = new DB_A2CE2A_OrdersEntities();
             string clientphone = clientOrder.Phone.Replace(" (", string.Empty).Replace(") ", string.Empty).Replace("-", string.Empty);
-            string clientbody = "Спасибо за заказ! Доставка завтра с ? до ?";
+            string clientbody = $"Заказ №{context.Orders.Count()} принят!\nХорошего дня:)";
 
 
             //string smsbody = "Новий заказ\n" + "Имя: " + txbName.Text + "\nТел.: " + txbPhone.Text
@@ -109,6 +110,7 @@ namespace Cabbage.Models
             SMSWorker smsw = new SMSWorker();
             smsw.Auth("cabbage", "7dayscabbage");
             //Response.Write(smsw.SendSMS("Kapusta", "+380636472421", smsbody, null)[0]);
+            smsw.SendSMS("Kapusta", clientphone, clientbody, null);
         }
     }
 }

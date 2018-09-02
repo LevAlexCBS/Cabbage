@@ -3,7 +3,9 @@ using System.Data;
 using System.Data.Entity.Validation;
 using System.Linq;
 using System.Text.RegularExpressions;
+using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Windows.Forms;
 using System.Xml.Linq;
 using Cabbage.Models;
 
@@ -137,10 +139,14 @@ namespace Cabbage
                     }
                 }
 
-                Response.Write("<script>alert('Спасибо за заказ');</script>");
+                orderbtn.Text = "Спасибо за заказ!";
+                orderbtn.Width = orderbtn.Text.Length * 6;
+                orderbtn.Enabled = false;
 
 
-                await new NotifySender(newOrder).SendEmail();
+                var notify = new NotifySender(newOrder);
+                await notify.SendEmail();
+                await notify.SendSms();
 
             }
 
@@ -170,7 +176,7 @@ namespace Cabbage
                     var query = from users in context.Orders
                                 where users.Phone == txbPhone.Text
                                 select users.Name;
-                    discount = query.SingleOrDefault();
+                    discount = query.First();
                 }
             }
             if (string.IsNullOrEmpty(discount))

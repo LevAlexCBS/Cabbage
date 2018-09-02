@@ -789,10 +789,9 @@
                                     <div class="col-xs-12">
                                         <!-- Button -->
 
-                                        <asp:Button Text="Заказать " runat="server" OnClick="PlaceOrder" CssClass="form contact-form-button light-form-button oswald light" CausesValidation="true"></asp:Button>
+                                        <asp:Button Text="Заказать" ID="orderbtn" runat="server" OnClick="PlaceOrder" CssClass="form contact-form-button light-form-button oswald light" CausesValidation="true" ></asp:Button>
 
                                     </div>
-
 
                                     <!-- </form> -->
                                 </div>
