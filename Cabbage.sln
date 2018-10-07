@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cabbage", "Cabbage\Cabbage.csproj", "{48EEF0FE-5F2E-48A2-B989-58D7591C5A94}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CabbageMVC", "CabbageMVC\CabbageMVC.csproj", "{74A432FB-D288-4AF5-8F6A-93E1D10472E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +15,11 @@ Global
 		{48EEF0FE-5F2E-48A2-B989-58D7591C5A94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48EEF0FE-5F2E-48A2-B989-58D7591C5A94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48EEF0FE-5F2E-48A2-B989-58D7591C5A94}.Release|Any CPU.Build.0 = Release|Any CPU
-		{74A432FB-D288-4AF5-8F6A-93E1D10472E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{74A432FB-D288-4AF5-8F6A-93E1D10472E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{74A432FB-D288-4AF5-8F6A-93E1D10472E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{74A432FB-D288-4AF5-8F6A-93E1D10472E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC1E38A6-B6E0-4E28-BAF3-CEE88BA9081A}
 	EndGlobalSection
 EndGlobal

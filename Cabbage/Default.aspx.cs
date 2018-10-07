@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity.Validation;
 using System.Linq;
@@ -13,7 +14,7 @@ using Cabbage.Models;
 
 namespace Cabbage
 {
-    public partial class Default : System.Web.UI.Page
+    public partial class Default : Page
     {
         protected void Pege_PreRender(object sender, EventArgs e)
         {
@@ -26,8 +27,11 @@ namespace Cabbage
             {
                 //DataSet ds = new DataSet();
                 //ds.ReadXml(Server.MapPath("~/App_Data/LunchBox.xml"));
-                BoxList.DataSource = Enum.GetNames(typeof(BoxTypes));
-                BoxListOrders.DataSource = Enum.GetNames(typeof(BoxTypes));
+                List<string> boxes = new List<string>();
+                boxes.AddRange(Enum.GetNames(typeof(BoxTypes)));
+
+                BoxList.DataSource = boxes.Where(x => !x.Contains("LunchBox"));
+                BoxListOrders.DataSource = boxes;
                 //GridView_lunch.DataSource = ds;
 
                 BoxList.DataBind();
@@ -140,7 +144,7 @@ namespace Cabbage
                 }
 
                 orderbtn.Text = "Спасибо за заказ!";
-                orderbtn.Width = orderbtn.Text.Length * 6;
+                orderbtn.Width = 200;
                 orderbtn.Enabled = false;
 
 
@@ -153,15 +157,25 @@ namespace Cabbage
         }
         protected void CalculatePrice(object sender, EventArgs e)
         {
-            string sex = (BoxListOrders.SelectedValue == "Мужчина") ? "Male" : "Female";
-            string discount = CheckDiscount();
             XDocument xdoc = XDocument.Load(Server.MapPath("~/App_Data/Prices.xml"));
+            string sex = BoxListOrders.SelectedValue == "Мужчина" ? "Male" : "Female";
+
+            if (BoxListOrders.SelectedValue == "LunchBox")
+            {
+                var price = from xe in xdoc.Element("prices").Elements("price")
+                    where xe.Attribute("boxtype").Value == BoxListOrders.SelectedValue
+                    select xe.Value;
+                Label1.Text = (Convert.ToInt32(price.Single()) * (Numdays.SelectedIndex + 1)).ToString();
+                return;
+            }
+
+            string discount = CheckDiscount();           
             var items = from xe in xdoc.Element("prices").Elements("price")
                         where xe.Attribute("boxtype").Value == BoxListOrders.SelectedValue
                         && xe.Attribute("gender").Value == sex
                         && xe.Attribute("discount").Value == discount
                         select xe.Value;
-            Label1.Text = (Convert.ToInt32(items.Single())*(Numdays.SelectedIndex + 1)).ToString();
+            Label1.Text = (Convert.ToInt32(items.Single()) * (Numdays.SelectedIndex + 1)).ToString();
 
         }
 

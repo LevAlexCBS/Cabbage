@@ -1,5 +1,8 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Cabbage.Default" Async="true" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs"
+    Inherits="Cabbage.Default"
+    Async="true" %>
 
+<%--Trace="true" for debug--%>
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
@@ -174,14 +177,14 @@
                                 <p class="det-p">
                                     Доступен заказ детского и постного меню<br />
                                     Заказ ланча с 7<sup>00</sup> до 15<sup>00</sup>
-                                    
-                                    <table  class ="table table-active" cellspacing="0"  border="1">
+
+                                    <table class="table table-active" cellspacing="0" border="1">
                                         <tbody>
                                             <tr>
                                                 <th scope="col">Наименование</th>
                                                 <th scope="col">Выход блюда</th>
                                             </tr>
-                                            <tr class ="table-success">
+                                            <tr class="table-success">
                                                 <td>Суп дня</td>
                                                 <td>200 г</td>
                                             </tr>
@@ -189,7 +192,7 @@
                                                 <td>Блюдо с мяса/рыбы</td>
                                                 <td>130 г</td>
                                             </tr>
-                                            <tr class ="table-success">
+                                            <tr class="table-success">
                                                 <td>Гарнир</td>
                                                 <td>150 г</td>
                                             </tr>
@@ -197,7 +200,7 @@
                                                 <td>Овощной салат</td>
                                                 <td>180 г</td>
                                             </tr>
-                                            <tr class ="table-success">
+                                            <tr class="table-success">
                                                 <td>Напиток</td>
                                                 <td>200 мл</td>
                                             </tr>
@@ -263,7 +266,7 @@
                                         <asp:BoundField DataField="dishout" HeaderText="Выход блюда, г" ItemStyle-Width="100px">
                                             <HeaderStyle CssClass="text-center" />
                                             <ItemStyle CssClass="text-center" Width="100px" />
-                                        </asp:BoundField> 
+                                        </asp:BoundField>
                                     </Columns>
                                 </asp:GridView>
 
@@ -602,7 +605,7 @@
                     <div class="row">
                         <div class="header-section text-center">
                             <h2>Фото наших блюд</h2>
-                           
+
                             <hr class="bottom-line" />
                         </div>
                     </div>
@@ -789,7 +792,7 @@
                                     <div class="col-xs-12">
                                         <!-- Button -->
 
-                                        <asp:Button Text="Заказать" ID="orderbtn" runat="server" OnClick="PlaceOrder" CssClass="form contact-form-button light-form-button oswald light" CausesValidation="true" ></asp:Button>
+                                        <asp:Button Text="Заказать" ID="orderbtn" runat="server" OnClick="PlaceOrder" CssClass="form contact-form-button light-form-button oswald light" CausesValidation="true"></asp:Button>
 
                                     </div>
 
@@ -808,13 +811,13 @@
 
                     <div class="footer-col-content">
                         <ul class="list-contacts-footer">
-                            <li>Address: <a href="#">Glasgow D04 89GR</a>
-                            </li>
+                            <%--<li>Address: <a href="#">Glasgow D04 89GR</a>
+                            </li>--%>
                             <li>Phones:
                                 <a href="callto:380961072510">+38(096)10-725-10</a>
-                                
+
                             </li>
-                            <li>E-mail: <a href="#">info@demolink.org</a>
+                            <li>E-mail: <a href="#">cabbage7days@gmail.com</a>
                             </li>
                             <li>Hours: 7 days a week from 9:00 am to 7:00 pm
                             </li>
@@ -826,7 +829,7 @@
                         <li><a href="https://facebook.com/kapusta7day/"><i class="fa fa-facebook fa-fw"></i></a></li>
                         <li><a href="https://twitter.com/kapusta7day"><i class="fa fa-twitter fa-fw"></i></a></li>
                     </ul>
-     
+
                 </div>
             </footer>
             <!--/ Footer-->

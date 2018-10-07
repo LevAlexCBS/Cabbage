@@ -7,6 +7,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using System.Windows.Forms;
+
 namespace Cabbage
 {
     using System;

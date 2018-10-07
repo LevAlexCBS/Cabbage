@@ -60,4 +60,6 @@
   <price gender ="Female" boxtype ="FreshBox" discount ="2" >420</price>
   <price gender ="Female" boxtype ="FreshBox" discount ="3" >400</price>
   <!--//-->
+
+  <price boxtype ="LunchBox">400</price>
 </prices>
